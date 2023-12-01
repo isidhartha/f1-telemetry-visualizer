@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Test cache
+.pytest_cache/
+
+# FastF1 data cache
+fastf1_cache/
+
+# Serialized data
+*.pkl
+
+# macOS metadata
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
