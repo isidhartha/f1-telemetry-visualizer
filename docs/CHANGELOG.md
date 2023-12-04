@@ -7,3 +7,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2022-01-10
+- fix: handle DNF laps in multi-driver comparison mode
+
+
