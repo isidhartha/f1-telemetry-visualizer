@@ -11,3 +11,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2022-01-13
+- style: normalise import ordering with isort
+
+
