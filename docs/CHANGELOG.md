@@ -15,3 +15,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2022-01-14
+- feat: implement batch circuit map export for all drivers
+
+
