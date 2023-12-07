@@ -19,3 +19,7 @@ All notable changes are documented here.
 - feat: implement batch circuit map export for all drivers
 
 
+### 2022-01-17
+- feat: implement session selection via interactive prompt
+
+
