@@ -23,3 +23,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2022-01-18
+- feat: implement interpolated distance axis for alignment
+
+
