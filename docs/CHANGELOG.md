@@ -27,3 +27,7 @@ All notable changes are documented here.
 - feat: implement interpolated distance axis for alignment
 
 
+### 2022-02-03
+- fix: correct time alignment when laps share same timestamp
+
+
