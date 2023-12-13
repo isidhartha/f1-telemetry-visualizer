@@ -35,3 +35,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2022-02-16
+- feat: add gear trace visualization alongside speed profile
+
+
