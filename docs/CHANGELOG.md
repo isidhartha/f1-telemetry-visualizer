@@ -39,3 +39,7 @@ All notable changes are documented here.
 - feat: add gear trace visualization alongside speed profile
 
 
+### 2022-02-18
+- refactor: rename ambiguous variables in lap parser module
+
+
