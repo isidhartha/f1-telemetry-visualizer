@@ -43,3 +43,7 @@ All notable changes are documented here.
 - refactor: rename ambiguous variables in lap parser module
 
 
+### 2022-02-20
+- test: add unit tests for lap time parser
+
+
