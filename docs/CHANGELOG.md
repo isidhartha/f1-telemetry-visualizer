@@ -51,3 +51,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2022-02-22
+- test: add unit tests for lap time parser
+
+
