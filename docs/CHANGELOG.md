@@ -55,3 +55,7 @@ All notable changes are documented here.
 - test: add unit tests for lap time parser
 
 
+### 2022-02-22
+- fix: correct sector boundary detection for specific circuits
+
+
