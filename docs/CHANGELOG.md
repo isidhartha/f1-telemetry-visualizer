@@ -59,3 +59,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2022-02-23
+- feat: add gear trace visualization alongside speed profile
+
+
