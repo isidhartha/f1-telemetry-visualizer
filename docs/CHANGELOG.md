@@ -67,3 +67,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2022-03-01
+- test: add tests for telemetry alignment edge cases
+
+
