@@ -75,3 +75,7 @@ All notable changes are documented here.
 - test: add regression test for DNF lap exclusion logic
 
 
+### 2022-03-11
+- test: add WebSocket broadcast unit tests
+
+
