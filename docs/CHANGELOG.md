@@ -79,3 +79,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2022-03-20
+- fix: handle DNF laps in multi-driver comparison mode
+
+
