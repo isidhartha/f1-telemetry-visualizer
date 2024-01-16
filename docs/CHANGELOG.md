@@ -83,3 +83,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2022-03-22
+- refactor: extract all constants to config module
+
+
