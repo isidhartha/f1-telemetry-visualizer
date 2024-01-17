@@ -87,3 +87,7 @@ All notable changes are documented here.
 - refactor: extract all constants to config module
 
 
+### 2022-03-24
+- perf: reduce peak memory in multi-driver comparison
+
+
