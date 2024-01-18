@@ -91,3 +91,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2022-03-27
+- feat: add configurable FastF1 cache dir via environment
+
+
