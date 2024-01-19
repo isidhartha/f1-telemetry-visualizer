@@ -95,3 +95,7 @@ All notable changes are documented here.
 - feat: add configurable FastF1 cache dir via environment
 
 
+### 2022-03-29
+- feat: add gear trace visualization alongside speed profile
+
+
