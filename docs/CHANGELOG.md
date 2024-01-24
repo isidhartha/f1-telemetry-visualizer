@@ -103,3 +103,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2022-04-09
+- refactor: simplify telemetry alignment with vectorised ops
+
+
