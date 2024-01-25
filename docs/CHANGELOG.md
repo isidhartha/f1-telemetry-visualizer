@@ -107,3 +107,7 @@ All notable changes are documented here.
 - refactor: simplify telemetry alignment with vectorised ops
 
 
+### 2022-04-12
+- docs: update architecture diagram in docs/architecture.md
+
+
