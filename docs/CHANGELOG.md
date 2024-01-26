@@ -111,3 +111,7 @@ All notable changes are documented here.
 - docs: update architecture diagram in docs/architecture.md
 
 
+### 2022-04-12
+- fix: handle FastF1 API rate limit with backoff
+
+
