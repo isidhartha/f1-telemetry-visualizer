@@ -115,3 +115,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2022-04-13
+- feat: implement weather condition overlay on race charts
+
+
