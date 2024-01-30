@@ -123,3 +123,7 @@ All notable changes are documented here.
 - test: add regression test for DNF lap exclusion logic
 
 
+### 2022-04-18
+- feat: implement synthetic lap data fallback for CI
+
+
