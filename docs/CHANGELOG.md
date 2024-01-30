@@ -119,3 +119,7 @@ All notable changes are documented here.
 - feat: implement weather condition overlay on race charts
 
 
+### 2022-04-13
+- test: add regression test for DNF lap exclusion logic
+
+
