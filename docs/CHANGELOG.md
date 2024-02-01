@@ -127,3 +127,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2022-04-19
+- chore: add pre-commit hooks for black and ruff
+
+
