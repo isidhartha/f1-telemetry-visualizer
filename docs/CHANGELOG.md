@@ -135,3 +135,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2022-05-03
+- refactor: rename ambiguous variables in lap parser module
+
+
