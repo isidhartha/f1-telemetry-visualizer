@@ -139,3 +139,7 @@ All notable changes are documented here.
 - refactor: rename ambiguous variables in lap parser module
 
 
+### 2022-05-09
+- refactor: split large render function into focused helpers
+
+
