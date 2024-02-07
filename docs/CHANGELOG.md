@@ -143,3 +143,7 @@ All notable changes are documented here.
 - refactor: split large render function into focused helpers
 
 
+### 2022-05-10
+- feat: add rich terminal UI with live leaderboard display
+
+
