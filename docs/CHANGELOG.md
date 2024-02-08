@@ -147,3 +147,7 @@ All notable changes are documented here.
 - feat: add rich terminal UI with live leaderboard display
 
 
+### 2022-05-13
+- style: fix line length violations in visualizer module
+
+
