@@ -151,3 +151,7 @@ All notable changes are documented here.
 - style: fix line length violations in visualizer module
 
 
+### 2022-05-16
+- feat: implement session selection via interactive prompt
+
+
