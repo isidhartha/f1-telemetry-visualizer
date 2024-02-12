@@ -155,3 +155,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2022-05-21
+- refactor: rename ambiguous variables in lap parser module
+
+
