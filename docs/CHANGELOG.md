@@ -159,3 +159,7 @@ All notable changes are documented here.
 - refactor: rename ambiguous variables in lap parser module
 
 
+### 2022-05-24
+- feat: add FastF1 session loader with local cache support
+
+
