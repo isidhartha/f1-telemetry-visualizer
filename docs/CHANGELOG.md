@@ -163,3 +163,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2022-05-25
+- feat: add multi-driver telemetry comparison overlay
+
+
