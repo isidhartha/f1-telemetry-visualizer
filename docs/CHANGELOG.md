@@ -167,3 +167,7 @@ All notable changes are documented here.
 - feat: add multi-driver telemetry comparison overlay
 
 
+### 2022-05-30
+- fix: handle missing pit stop data in cached sessions
+
+
