@@ -171,3 +171,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2022-05-31
+- feat: add compound strategy timeline for full race
+
+
