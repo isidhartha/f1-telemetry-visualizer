@@ -175,3 +175,7 @@ All notable changes are documented here.
 - feat: add compound strategy timeline for full race
 
 
+### 2022-06-03
+- feat: implement lap telemetry parser for speed and throttle channels
+
+
