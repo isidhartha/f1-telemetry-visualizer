@@ -179,3 +179,7 @@ All notable changes are documented here.
 - feat: implement lap telemetry parser for speed and throttle channels
 
 
+### 2022-06-03
+- feat: add CSV export for aligned telemetry channels
+
+
