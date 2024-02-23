@@ -183,3 +183,7 @@ All notable changes are documented here.
 - feat: add CSV export for aligned telemetry channels
 
 
+### 2022-06-07
+- refactor: replace manual loop with pandas apply in parser
+
+
