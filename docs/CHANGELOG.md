@@ -187,3 +187,7 @@ All notable changes are documented here.
 - refactor: replace manual loop with pandas apply in parser
 
 
+### 2022-06-16
+- feat: implement weather condition overlay on race charts
+
+
