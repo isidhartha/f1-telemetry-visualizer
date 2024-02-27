@@ -191,3 +191,7 @@ All notable changes are documented here.
 - feat: implement weather condition overlay on race charts
 
 
+### 2022-06-27
+- fix: correct DRS detection for Monaco street circuit
+
+
