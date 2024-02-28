@@ -195,3 +195,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2022-06-27
+- feat: add lap time delta chart between selected drivers
+
+
