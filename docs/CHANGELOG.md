@@ -203,3 +203,7 @@ All notable changes are documented here.
 - refactor: simplify telemetry alignment with vectorised ops
 
 
+### 2022-06-30
+- fix: handle timezone offset in session timestamp parsing
+
+
