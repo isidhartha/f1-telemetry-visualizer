@@ -207,3 +207,7 @@ All notable changes are documented here.
 - fix: handle timezone offset in session timestamp parsing
 
 
+### 2022-07-02
+- feat: add CSV export for aligned telemetry channels
+
+
