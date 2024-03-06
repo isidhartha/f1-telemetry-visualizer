@@ -211,3 +211,7 @@ All notable changes are documented here.
 - feat: add CSV export for aligned telemetry channels
 
 
+### 2022-07-04
+- feat: implement sector time breakdown visualization panel
+
+
