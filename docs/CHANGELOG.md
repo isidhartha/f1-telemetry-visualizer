@@ -215,3 +215,7 @@ All notable changes are documented here.
 - feat: implement sector time breakdown visualization panel
 
 
+### 2022-07-07
+- feat: implement tyre compound colour coding on traces
+
+
