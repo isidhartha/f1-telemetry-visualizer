@@ -219,3 +219,7 @@ All notable changes are documented here.
 - feat: implement tyre compound colour coding on traces
 
 
+### 2022-07-11
+- docs: add circuit map colour legend documentation
+
+
