@@ -223,3 +223,7 @@ All notable changes are documented here.
 - docs: add circuit map colour legend documentation
 
 
+### 2022-07-13
+- fix: fix matplotlib display on headless CI environments
+
+
