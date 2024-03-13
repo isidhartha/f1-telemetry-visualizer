@@ -227,3 +227,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2022-07-21
+- fix: fix incorrect lap count when VSC period is active
+
+
