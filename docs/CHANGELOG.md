@@ -231,3 +231,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2022-07-23
+- docs: update installation steps for Windows users
+
+
