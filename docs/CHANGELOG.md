@@ -235,3 +235,7 @@ All notable changes are documented here.
 - docs: update installation steps for Windows users
 
 
+### 2022-07-24
+- fix: handle missing telemetry for early 2022 season races
+
+
