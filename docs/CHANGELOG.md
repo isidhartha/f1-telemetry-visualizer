@@ -239,3 +239,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2022-07-25
+- chore: add fastf1_cache to .gitignore
+
+
