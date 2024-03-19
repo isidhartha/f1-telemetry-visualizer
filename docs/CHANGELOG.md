@@ -243,3 +243,7 @@ All notable changes are documented here.
 - chore: add fastf1_cache to .gitignore
 
 
+### 2022-07-28
+- fix: handle timezone offset in session timestamp parsing
+
+
