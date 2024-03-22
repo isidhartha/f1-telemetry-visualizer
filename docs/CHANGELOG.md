@@ -251,3 +251,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2022-07-29
+- refactor: consolidate session loading into utility class
+
+
