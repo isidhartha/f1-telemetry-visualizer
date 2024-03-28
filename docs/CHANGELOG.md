@@ -263,3 +263,7 @@ All notable changes are documented here.
 - test: add unit tests for lap time parser
 
 
+### 2022-08-08
+- docs: update installation steps for Windows users
+
+
