@@ -267,3 +267,7 @@ All notable changes are documented here.
 - docs: update installation steps for Windows users
 
 
+### 2022-08-08
+- test: add regression test for DNF lap exclusion logic
+
+
