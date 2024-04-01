@@ -271,3 +271,7 @@ All notable changes are documented here.
 - test: add regression test for DNF lap exclusion logic
 
 
+### 2022-08-10
+- fix: fix matplotlib display on headless CI environments
+
+
