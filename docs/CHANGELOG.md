@@ -275,3 +275,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2022-08-12
+- feat: implement DRS zone detection from car data channels
+
+
