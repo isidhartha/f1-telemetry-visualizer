@@ -283,3 +283,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2022-08-17
+- refactor: extract circuit map renderer to separate class
+
+
