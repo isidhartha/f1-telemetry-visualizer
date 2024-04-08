@@ -287,3 +287,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2022-08-24
+- feat: implement multi-client WebSocket fan-out server
+
+
