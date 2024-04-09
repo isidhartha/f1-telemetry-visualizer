@@ -291,3 +291,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2022-08-26
+- fix: correct DRS detection for Monaco street circuit
+
+
