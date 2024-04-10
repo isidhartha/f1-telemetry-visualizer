@@ -295,3 +295,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2022-08-30
+- refactor: consolidate session loading into utility class
+
+
