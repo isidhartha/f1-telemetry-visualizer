@@ -303,3 +303,7 @@ All notable changes are documented here.
 - fix: resolve encoding issue in non-ASCII driver name display
 
 
+### 2022-09-04
+- fix: handle missing pit stop data in cached sessions
+
+
