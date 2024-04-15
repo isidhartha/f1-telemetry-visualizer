@@ -307,3 +307,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2022-09-10
+- feat: implement circuit map with racing line overlay
+
+
