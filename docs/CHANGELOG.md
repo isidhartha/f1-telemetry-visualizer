@@ -311,3 +311,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2022-09-21
+- fix: fix interpolation edge case at lap start boundary
+
+
