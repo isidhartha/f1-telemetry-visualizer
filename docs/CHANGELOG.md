@@ -315,3 +315,7 @@ All notable changes are documented here.
 - fix: fix interpolation edge case at lap start boundary
 
 
+### 2022-09-25
+- feat: implement live WebSocket broadcast for session data
+
+
