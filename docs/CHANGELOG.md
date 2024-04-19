@@ -319,3 +319,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2022-09-27
+- test: add regression test for DNF lap exclusion logic
+
+
