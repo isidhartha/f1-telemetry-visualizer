@@ -327,3 +327,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2022-09-29
+- fix: correct sector boundary detection for specific circuits
+
+
