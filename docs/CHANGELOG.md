@@ -331,3 +331,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2022-09-30
+- test: add tests for telemetry alignment edge cases
+
+
