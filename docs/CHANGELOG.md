@@ -339,3 +339,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2022-10-04
+- style: format all source files with black
+
+
