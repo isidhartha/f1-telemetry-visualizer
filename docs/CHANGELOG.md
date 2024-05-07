@@ -343,3 +343,7 @@ All notable changes are documented here.
 - style: format all source files with black
 
 
+### 2022-10-05
+- test: add tests for telemetry alignment edge cases
+
+
