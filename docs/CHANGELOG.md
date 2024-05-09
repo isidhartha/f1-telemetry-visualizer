@@ -347,3 +347,7 @@ All notable changes are documented here.
 - test: add tests for telemetry alignment edge cases
 
 
+### 2022-10-07
+- feat: implement tyre compound colour coding on traces
+
+
