@@ -355,3 +355,7 @@ All notable changes are documented here.
 - fix: fix interpolation edge case at lap start boundary
 
 
+### 2022-10-16
+- feat: add rich terminal UI with live leaderboard display
+
+
