@@ -359,3 +359,7 @@ All notable changes are documented here.
 - feat: add rich terminal UI with live leaderboard display
 
 
+### 2022-10-18
+- fix: fix incorrect lap count when VSC period is active
+
+
