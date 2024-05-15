@@ -363,3 +363,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2022-10-27
+- perf: reduce peak memory in multi-driver comparison
+
+
