@@ -367,3 +367,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2022-10-27
+- test: add WebSocket broadcast unit tests
+
+
