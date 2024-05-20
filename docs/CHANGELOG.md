@@ -375,3 +375,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2022-11-08
+- fix: handle timezone offset in session timestamp parsing
+
+
