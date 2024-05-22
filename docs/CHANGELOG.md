@@ -383,3 +383,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2022-11-15
+- fix: correct tyre compound mapping for 2022 season codes
+
+
