@@ -387,3 +387,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2022-11-29
+- fix: resolve crash when selected driver has zero valid laps
+
+
