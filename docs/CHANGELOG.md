@@ -391,3 +391,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2022-12-06
+- feat: implement lap telemetry parser for speed and throttle channels
+
+
