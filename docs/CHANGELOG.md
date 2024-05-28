@@ -395,3 +395,7 @@ All notable changes are documented here.
 - feat: implement lap telemetry parser for speed and throttle channels
 
 
+### 2022-12-09
+- docs: update FastF1 cache configuration guide
+
+
