@@ -399,3 +399,7 @@ All notable changes are documented here.
 - docs: update FastF1 cache configuration guide
 
 
+### 2022-12-13
+- docs: add circuit map colour legend documentation
+
+
