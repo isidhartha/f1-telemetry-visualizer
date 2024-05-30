@@ -403,3 +403,7 @@ All notable changes are documented here.
 - docs: add circuit map colour legend documentation
 
 
+### 2022-12-16
+- fix: resolve NaN values in telemetry alignment step
+
+
