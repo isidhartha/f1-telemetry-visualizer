@@ -407,3 +407,7 @@ All notable changes are documented here.
 - fix: resolve NaN values in telemetry alignment step
 
 
+### 2022-12-16
+- feat: add automatic reconnection for dropped clients
+
+
