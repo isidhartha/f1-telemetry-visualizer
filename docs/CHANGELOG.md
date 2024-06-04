@@ -411,3 +411,7 @@ All notable changes are documented here.
 - feat: add automatic reconnection for dropped clients
 
 
+### 2022-12-19
+- refactor: simplify telemetry alignment with vectorised ops
+
+
