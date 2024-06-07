@@ -423,3 +423,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2022-12-28
+- docs: add lap comparison usage examples to README
+
+
