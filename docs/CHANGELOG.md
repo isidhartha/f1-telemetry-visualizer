@@ -431,3 +431,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2022-12-29
+- perf: reduce peak memory in multi-driver comparison
+
+
