@@ -435,3 +435,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2023-01-03
+- refactor: simplify telemetry alignment with vectorised ops
+
+
