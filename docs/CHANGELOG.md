@@ -439,3 +439,7 @@ All notable changes are documented here.
 - refactor: simplify telemetry alignment with vectorised ops
 
 
+### 2023-01-06
+- refactor: split large render function into focused helpers
+
+
