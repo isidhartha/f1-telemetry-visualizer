@@ -443,3 +443,7 @@ All notable changes are documented here.
 - refactor: split large render function into focused helpers
 
 
+### 2023-01-06
+- feat: add automatic reconnection for dropped clients
+
+
