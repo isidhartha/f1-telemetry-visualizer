@@ -447,3 +447,7 @@ All notable changes are documented here.
 - feat: add automatic reconnection for dropped clients
 
 
+### 2023-01-08
+- feat: add compound strategy timeline for full race
+
+
