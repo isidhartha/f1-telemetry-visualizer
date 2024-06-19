@@ -451,3 +451,7 @@ All notable changes are documented here.
 - feat: add compound strategy timeline for full race
 
 
+### 2023-01-09
+- chore: add fastf1_cache to .gitignore
+
+
