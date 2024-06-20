@@ -455,3 +455,7 @@ All notable changes are documented here.
 - chore: add fastf1_cache to .gitignore
 
 
+### 2023-01-11
+- feat: implement interpolated distance axis for alignment
+
+
