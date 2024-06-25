@@ -463,3 +463,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2023-01-22
+- chore: update FastF1 dependency to 3.3.x
+
+
