@@ -467,3 +467,7 @@ All notable changes are documented here.
 - chore: update FastF1 dependency to 3.3.x
 
 
+### 2023-01-23
+- feat: implement batch circuit map export for all drivers
+
+
