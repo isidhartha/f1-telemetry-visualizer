@@ -471,3 +471,7 @@ All notable changes are documented here.
 - feat: implement batch circuit map export for all drivers
 
 
+### 2023-01-26
+- feat: add gear trace visualization alongside speed profile
+
+
