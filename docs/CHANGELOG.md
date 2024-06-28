@@ -475,3 +475,7 @@ All notable changes are documented here.
 - feat: add gear trace visualization alongside speed profile
 
 
+### 2023-01-27
+- refactor: extract circuit map renderer to separate class
+
+
