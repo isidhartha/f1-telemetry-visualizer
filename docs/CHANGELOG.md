@@ -483,3 +483,7 @@ All notable changes are documented here.
 - fix: correct lap time parsing for sector 3 edge case
 
 
+### 2023-01-30
+- feat: implement live WebSocket broadcast for session data
+
+
