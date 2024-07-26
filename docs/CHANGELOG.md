@@ -487,3 +487,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2023-02-02
+- feat: implement sector time breakdown visualization panel
+
+
