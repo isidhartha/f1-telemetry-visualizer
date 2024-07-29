@@ -491,3 +491,7 @@ All notable changes are documented here.
 - feat: implement sector time breakdown visualization panel
 
 
+### 2023-02-02
+- test: add tests for telemetry alignment edge cases
+
+
