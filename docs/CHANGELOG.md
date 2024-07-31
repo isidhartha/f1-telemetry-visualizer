@@ -499,3 +499,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2023-02-07
+- feat: implement session selection via interactive prompt
+
+
