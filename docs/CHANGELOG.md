@@ -503,3 +503,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2023-02-07
+- chore: add pre-commit hooks for black and ruff
+
+
