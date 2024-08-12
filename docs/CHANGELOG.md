@@ -511,3 +511,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2023-02-13
+- docs: add circuit map colour legend documentation
+
+
