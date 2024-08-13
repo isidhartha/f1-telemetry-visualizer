@@ -515,3 +515,7 @@ All notable changes are documented here.
 - docs: add circuit map colour legend documentation
 
 
+### 2023-02-15
+- feat: add multi-driver telemetry comparison overlay
+
+
