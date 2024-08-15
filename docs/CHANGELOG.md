@@ -519,3 +519,7 @@ All notable changes are documented here.
 - feat: add multi-driver telemetry comparison overlay
 
 
+### 2023-02-15
+- docs: add lap comparison usage examples to README
+
+
