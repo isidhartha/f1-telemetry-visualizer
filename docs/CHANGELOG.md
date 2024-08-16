@@ -523,3 +523,7 @@ All notable changes are documented here.
 - docs: add lap comparison usage examples to README
 
 
+### 2023-02-18
+- feat: implement circuit map with racing line overlay
+
+
