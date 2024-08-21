@@ -527,3 +527,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2023-02-23
+- refactor: extract telemetry loading into dedicated module
+
+
