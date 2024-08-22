@@ -531,3 +531,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2023-02-28
+- chore: add fastf1_cache to .gitignore
+
+
