@@ -535,3 +535,7 @@ All notable changes are documented here.
 - chore: add fastf1_cache to .gitignore
 
 
+### 2023-02-28
+- perf: reduce peak memory in multi-driver comparison
+
+
