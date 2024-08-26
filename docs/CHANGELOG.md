@@ -539,3 +539,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2023-03-02
+- feat: implement brake pressure overlay on lap comparison
+
+
