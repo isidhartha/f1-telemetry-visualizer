@@ -543,3 +543,7 @@ All notable changes are documented here.
 - feat: implement brake pressure overlay on lap comparison
 
 
+### 2023-03-02
+- feat: implement synthetic lap data fallback for CI
+
+
