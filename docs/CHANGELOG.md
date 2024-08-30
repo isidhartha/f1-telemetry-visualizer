@@ -551,3 +551,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2023-03-11
+- fix: handle missing telemetry for early 2022 season races
+
+
