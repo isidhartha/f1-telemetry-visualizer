@@ -559,3 +559,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2023-03-23
+- feat: implement sector time breakdown visualization panel
+
+
