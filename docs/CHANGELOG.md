@@ -563,3 +563,7 @@ All notable changes are documented here.
 - feat: implement sector time breakdown visualization panel
 
 
+### 2023-03-27
+- fix: handle FastF1 API rate limit with backoff
+
+
