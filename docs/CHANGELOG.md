@@ -567,3 +567,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2023-04-01
+- refactor: separate visualization from data processing logic
+
+
