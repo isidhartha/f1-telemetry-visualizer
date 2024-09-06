@@ -571,3 +571,7 @@ All notable changes are documented here.
 - refactor: separate visualization from data processing logic
 
 
+### 2023-04-04
+- feat: implement sector time breakdown visualization panel
+
+
