@@ -579,3 +579,7 @@ All notable changes are documented here.
 - feat: add CSV export for aligned telemetry channels
 
 
+### 2023-04-06
+- refactor: consolidate session loading into utility class
+
+
