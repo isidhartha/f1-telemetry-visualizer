@@ -583,3 +583,7 @@ All notable changes are documented here.
 - refactor: consolidate session loading into utility class
 
 
+### 2023-04-06
+- fix: resolve crash when selected driver has zero valid laps
+
+
