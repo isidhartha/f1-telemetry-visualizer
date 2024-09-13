@@ -587,3 +587,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2023-04-06
+- fix: resolve NaN values in telemetry alignment step
+
+
