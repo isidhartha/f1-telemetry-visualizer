@@ -591,3 +591,7 @@ All notable changes are documented here.
 - fix: resolve NaN values in telemetry alignment step
 
 
+### 2023-04-07
+- feat: add fastest lap highlight across all drivers
+
+
