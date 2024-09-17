@@ -595,3 +595,7 @@ All notable changes are documented here.
 - feat: add fastest lap highlight across all drivers
 
 
+### 2023-04-11
+- fix: correct DRS detection for Monaco street circuit
+
+
