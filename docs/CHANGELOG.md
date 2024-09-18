@@ -599,3 +599,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2023-04-11
+- test: add integration test with cached 2023 session data
+
+
