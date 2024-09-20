@@ -603,3 +603,7 @@ All notable changes are documented here.
 - test: add integration test with cached 2023 session data
 
 
+### 2023-04-12
+- feat: implement multi-client WebSocket fan-out server
+
+
