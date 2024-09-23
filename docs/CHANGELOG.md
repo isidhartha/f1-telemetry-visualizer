@@ -607,3 +607,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2023-04-18
+- fix: resolve crash when selected driver has zero valid laps
+
+
