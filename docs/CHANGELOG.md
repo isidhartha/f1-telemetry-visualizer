@@ -615,3 +615,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2023-04-29
+- feat: add session selector for race qualifying and practice
+
+
