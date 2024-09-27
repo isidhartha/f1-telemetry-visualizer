@@ -619,3 +619,7 @@ All notable changes are documented here.
 - feat: add session selector for race qualifying and practice
 
 
+### 2023-05-05
+- fix: correct time alignment when laps share same timestamp
+
+
