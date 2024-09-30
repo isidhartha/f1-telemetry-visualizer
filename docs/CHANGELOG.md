@@ -623,3 +623,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2023-05-07
+- feat: add FastF1 session loader with local cache support
+
+
