@@ -627,3 +627,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2023-05-09
+- chore: add fastf1_cache to .gitignore
+
+
