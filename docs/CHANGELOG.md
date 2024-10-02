@@ -631,3 +631,7 @@ All notable changes are documented here.
 - chore: add fastf1_cache to .gitignore
 
 
+### 2023-05-10
+- feat: add gear trace visualization alongside speed profile
+
+
