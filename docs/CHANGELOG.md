@@ -635,3 +635,7 @@ All notable changes are documented here.
 - feat: add gear trace visualization alongside speed profile
 
 
+### 2023-05-11
+- refactor: consolidate session loading into utility class
+
+
