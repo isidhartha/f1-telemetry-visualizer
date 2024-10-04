@@ -639,3 +639,7 @@ All notable changes are documented here.
 - refactor: consolidate session loading into utility class
 
 
+### 2023-05-14
+- fix: resolve encoding issue in non-ASCII driver name display
+
+
