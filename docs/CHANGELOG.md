@@ -643,3 +643,7 @@ All notable changes are documented here.
 - fix: resolve encoding issue in non-ASCII driver name display
 
 
+### 2023-05-18
+- feat: implement live WebSocket broadcast for session data
+
+
