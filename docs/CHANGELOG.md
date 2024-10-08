@@ -647,3 +647,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2023-05-28
+- refactor: consolidate session loading into utility class
+
+
