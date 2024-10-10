@@ -655,3 +655,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2023-05-30
+- fix: handle FastF1 API rate limit with backoff
+
+
