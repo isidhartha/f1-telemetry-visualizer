@@ -659,3 +659,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2023-05-30
+- perf: reduce peak memory in multi-driver comparison
+
+
