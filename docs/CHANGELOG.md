@@ -667,3 +667,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2023-06-15
+- fix: resolve NaN values in telemetry alignment step
+
+
