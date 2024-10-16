@@ -671,3 +671,7 @@ All notable changes are documented here.
 - fix: resolve NaN values in telemetry alignment step
 
 
+### 2023-06-22
+- refactor: extract circuit map renderer to separate class
+
+
