@@ -675,3 +675,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2023-06-23
+- fix: resolve encoding issue in non-ASCII driver name display
+
+
