@@ -679,3 +679,7 @@ All notable changes are documented here.
 - fix: resolve encoding issue in non-ASCII driver name display
 
 
+### 2023-06-23
+- refactor: split large render function into focused helpers
+
+
