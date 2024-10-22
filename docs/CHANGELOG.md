@@ -683,3 +683,7 @@ All notable changes are documented here.
 - refactor: split large render function into focused helpers
 
 
+### 2023-06-24
+- chore: add fastf1_cache to .gitignore
+
+
