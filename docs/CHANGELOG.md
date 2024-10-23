@@ -687,3 +687,7 @@ All notable changes are documented here.
 - chore: add fastf1_cache to .gitignore
 
 
+### 2023-06-28
+- refactor: simplify telemetry alignment with vectorised ops
+
+
