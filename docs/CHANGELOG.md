@@ -691,3 +691,7 @@ All notable changes are documented here.
 - refactor: simplify telemetry alignment with vectorised ops
 
 
+### 2023-07-03
+- fix: resolve encoding issue in non-ASCII driver name display
+
+
