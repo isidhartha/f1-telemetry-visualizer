@@ -695,3 +695,7 @@ All notable changes are documented here.
 - fix: resolve encoding issue in non-ASCII driver name display
 
 
+### 2023-07-11
+- fix: correct lap time parsing for sector 3 edge case
+
+
