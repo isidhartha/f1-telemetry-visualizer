@@ -699,3 +699,7 @@ All notable changes are documented here.
 - fix: correct lap time parsing for sector 3 edge case
 
 
+### 2023-07-13
+- feat: add automatic reconnection for dropped clients
+
+
