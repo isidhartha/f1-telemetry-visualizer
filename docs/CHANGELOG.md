@@ -703,3 +703,7 @@ All notable changes are documented here.
 - feat: add automatic reconnection for dropped clients
 
 
+### 2023-07-13
+- test: add regression test for DNF lap exclusion logic
+
+
