@@ -707,3 +707,7 @@ All notable changes are documented here.
 - test: add regression test for DNF lap exclusion logic
 
 
+### 2023-07-18
+- refactor: replace manual loop with pandas apply in parser
+
+
