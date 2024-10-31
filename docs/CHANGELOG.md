@@ -711,3 +711,7 @@ All notable changes are documented here.
 - refactor: replace manual loop with pandas apply in parser
 
 
+### 2023-07-18
+- docs: update installation steps for Windows users
+
+
