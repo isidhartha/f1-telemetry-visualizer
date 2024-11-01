@@ -715,3 +715,7 @@ All notable changes are documented here.
 - docs: update installation steps for Windows users
 
 
+### 2023-07-19
+- feat: add rich terminal UI with live leaderboard display
+
+
