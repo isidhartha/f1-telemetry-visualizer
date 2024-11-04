@@ -719,3 +719,7 @@ All notable changes are documented here.
 - feat: add rich terminal UI with live leaderboard display
 
 
+### 2023-07-23
+- fix: handle DNF laps in multi-driver comparison mode
+
+
