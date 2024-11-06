@@ -723,3 +723,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2023-07-26
+- docs: add troubleshooting section for headless display
+
+
