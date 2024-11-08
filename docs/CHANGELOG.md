@@ -731,3 +731,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2023-07-27
+- fix: correct lap time parsing for sector 3 edge case
+
+
