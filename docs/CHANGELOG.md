@@ -735,3 +735,7 @@ All notable changes are documented here.
 - fix: correct lap time parsing for sector 3 edge case
 
 
+### 2023-08-01
+- feat: implement DRS zone detection from car data channels
+
+
