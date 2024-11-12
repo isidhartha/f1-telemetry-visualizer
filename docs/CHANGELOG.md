@@ -739,3 +739,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2023-08-03
+- refactor: split large render function into focused helpers
+
+
