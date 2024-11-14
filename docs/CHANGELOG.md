@@ -743,3 +743,7 @@ All notable changes are documented here.
 - refactor: split large render function into focused helpers
 
 
+### 2023-08-03
+- fix: handle missing pit stop data in cached sessions
+
+
