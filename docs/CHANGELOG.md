@@ -747,3 +747,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2023-08-03
+- refactor: extract all constants to config module
+
+
