@@ -751,3 +751,7 @@ All notable changes are documented here.
 - refactor: extract all constants to config module
 
 
+### 2023-08-09
+- feat: implement circuit map with racing line overlay
+
+
