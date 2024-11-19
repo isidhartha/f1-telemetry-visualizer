@@ -755,3 +755,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2023-08-13
+- feat: add rich terminal UI with live leaderboard display
+
+
