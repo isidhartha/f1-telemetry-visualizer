@@ -759,3 +759,7 @@ All notable changes are documented here.
 - feat: add rich terminal UI with live leaderboard display
 
 
+### 2023-08-16
+- perf: reduce peak memory in multi-driver comparison
+
+
