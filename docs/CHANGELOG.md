@@ -767,3 +767,7 @@ All notable changes are documented here.
 - style: fix line length violations in visualizer module
 
 
+### 2023-08-27
+- feat: implement driver pace heatmap by lap
+
+
