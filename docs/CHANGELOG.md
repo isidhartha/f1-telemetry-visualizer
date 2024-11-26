@@ -771,3 +771,7 @@ All notable changes are documented here.
 - feat: implement driver pace heatmap by lap
 
 
+### 2023-08-28
+- fix: handle missing telemetry for early 2022 season races
+
+
