@@ -775,3 +775,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2023-09-02
+- feat: implement synthetic lap data fallback for CI
+
+
