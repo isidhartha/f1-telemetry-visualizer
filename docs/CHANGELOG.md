@@ -779,3 +779,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2023-09-08
+- refactor: replace manual loop with pandas apply in parser
+
+
