@@ -783,3 +783,7 @@ All notable changes are documented here.
 - refactor: replace manual loop with pandas apply in parser
 
 
+### 2023-09-09
+- feat: implement multi-client WebSocket fan-out server
+
+
