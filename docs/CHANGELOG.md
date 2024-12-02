@@ -787,3 +787,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2023-10-05
+- refactor: move all plotting functions to visualizer module
+
+
