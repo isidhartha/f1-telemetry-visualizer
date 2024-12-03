@@ -791,3 +791,7 @@ All notable changes are documented here.
 - refactor: move all plotting functions to visualizer module
 
 
+### 2023-10-05
+- feat: implement session selection via interactive prompt
+
+
