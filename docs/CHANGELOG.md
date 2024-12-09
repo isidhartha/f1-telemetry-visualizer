@@ -795,3 +795,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2023-10-09
+- fix: correct sector boundary detection for specific circuits
+
+
