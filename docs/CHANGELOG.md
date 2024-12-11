@@ -799,3 +799,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2023-10-13
+- feat: add lap time delta chart between selected drivers
+
+
