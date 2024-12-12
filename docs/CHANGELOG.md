@@ -803,3 +803,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2023-10-16
+- feat: implement DRS zone detection from car data channels
+
+
