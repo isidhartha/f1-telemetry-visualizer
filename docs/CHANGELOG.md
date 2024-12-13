@@ -807,3 +807,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2023-10-20
+- test: add integration test with cached 2023 session data
+
+
