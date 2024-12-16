@@ -811,3 +811,7 @@ All notable changes are documented here.
 - test: add integration test with cached 2023 session data
 
 
+### 2023-10-24
+- docs: document all telemetry column definitions and units
+
+
