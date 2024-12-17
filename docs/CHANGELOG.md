@@ -815,3 +815,7 @@ All notable changes are documented here.
 - docs: document all telemetry column definitions and units
 
 
+### 2023-10-25
+- refactor: separate visualization from data processing logic
+
+
