@@ -819,3 +819,7 @@ All notable changes are documented here.
 - refactor: separate visualization from data processing logic
 
 
+### 2023-11-03
+- fix: resolve crash when selected driver has zero valid laps
+
+
