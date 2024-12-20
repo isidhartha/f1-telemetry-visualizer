@@ -823,3 +823,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2023-11-06
+- refactor: extract circuit map renderer to separate class
+
+
