@@ -831,3 +831,7 @@ All notable changes are documented here.
 - docs: update FastF1 cache configuration guide
 
 
+### 2023-11-08
+- feat: implement weather condition overlay on race charts
+
+
