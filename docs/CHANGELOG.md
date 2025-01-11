@@ -835,3 +835,7 @@ All notable changes are documented here.
 - feat: implement weather condition overlay on race charts
 
 
+### 2023-11-11
+- feat: add gear trace visualization alongside speed profile
+
+
