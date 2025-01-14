@@ -839,3 +839,7 @@ All notable changes are documented here.
 - feat: add gear trace visualization alongside speed profile
 
 
+### 2023-11-13
+- refactor: move all plotting functions to visualizer module
+
+
