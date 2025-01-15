@@ -843,3 +843,7 @@ All notable changes are documented here.
 - refactor: move all plotting functions to visualizer module
 
 
+### 2023-11-14
+- chore: pin pandas version for dtype compatibility
+
+
