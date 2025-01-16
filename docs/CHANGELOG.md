@@ -847,3 +847,7 @@ All notable changes are documented here.
 - chore: pin pandas version for dtype compatibility
 
 
+### 2023-11-14
+- feat: add fastest lap highlight across all drivers
+
+
