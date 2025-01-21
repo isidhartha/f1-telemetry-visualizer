@@ -855,3 +855,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2023-11-20
+- docs: document all telemetry column definitions and units
+
+
