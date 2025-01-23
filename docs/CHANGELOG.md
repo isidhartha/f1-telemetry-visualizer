@@ -863,3 +863,7 @@ All notable changes are documented here.
 - test: add integration test with cached 2023 session data
 
 
+### 2023-11-28
+- feat: add fastest lap highlight across all drivers
+
+
