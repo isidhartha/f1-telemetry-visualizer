@@ -867,3 +867,7 @@ All notable changes are documented here.
 - feat: add fastest lap highlight across all drivers
 
 
+### 2023-11-28
+- feat: implement live WebSocket broadcast for session data
+
+
