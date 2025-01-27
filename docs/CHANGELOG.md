@@ -871,3 +871,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2023-11-30
+- fix: resolve crash when selected driver has zero valid laps
+
+
