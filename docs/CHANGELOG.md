@@ -875,3 +875,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2023-12-01
+- fix: handle missing pit stop data in cached sessions
+
+
