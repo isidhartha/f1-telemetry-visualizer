@@ -879,3 +879,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2023-12-09
+- feat: implement sector time breakdown visualization panel
+
+
