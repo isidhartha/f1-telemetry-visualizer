@@ -883,3 +883,7 @@ All notable changes are documented here.
 - feat: implement sector time breakdown visualization panel
 
 
+### 2023-12-12
+- fix: handle missing telemetry for early 2022 season races
+
+
