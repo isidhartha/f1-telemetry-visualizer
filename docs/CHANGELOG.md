@@ -887,3 +887,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2023-12-14
+- style: format all source files with black
+
+
