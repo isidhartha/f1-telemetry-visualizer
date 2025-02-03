@@ -891,3 +891,7 @@ All notable changes are documented here.
 - style: format all source files with black
 
 
+### 2023-12-14
+- fix: correct time alignment when laps share same timestamp
+
+
