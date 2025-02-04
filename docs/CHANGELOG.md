@@ -895,3 +895,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2023-12-15
+- fix: handle missing telemetry for early 2022 season races
+
+
