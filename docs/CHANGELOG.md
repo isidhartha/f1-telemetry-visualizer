@@ -903,3 +903,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2023-12-21
+- fix: fix incorrect lap count when VSC period is active
+
+
