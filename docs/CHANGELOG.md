@@ -907,3 +907,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2024-01-03
+- docs: update FastF1 cache configuration guide
+
+
