@@ -915,3 +915,7 @@ All notable changes are documented here.
 - fix: handle timezone offset in session timestamp parsing
 
 
+### 2024-01-15
+- feat: implement driver pace heatmap by lap
+
+
