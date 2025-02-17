@@ -923,3 +923,7 @@ All notable changes are documented here.
 - style: fix line length violations in visualizer module
 
 
+### 2024-01-18
+- feat: implement brake pressure overlay on lap comparison
+
+
