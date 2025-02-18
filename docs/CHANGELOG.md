@@ -927,3 +927,7 @@ All notable changes are documented here.
 - feat: implement brake pressure overlay on lap comparison
 
 
+### 2024-01-27
+- docs: update installation steps for Windows users
+
+
