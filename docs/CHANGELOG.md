@@ -931,3 +931,7 @@ All notable changes are documented here.
 - docs: update installation steps for Windows users
 
 
+### 2024-01-29
+- feat: add configurable FastF1 cache dir via environment
+
+
