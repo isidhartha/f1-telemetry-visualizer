@@ -935,3 +935,7 @@ All notable changes are documented here.
 - feat: add configurable FastF1 cache dir via environment
 
 
+### 2024-01-30
+- feat: add rich terminal UI with live leaderboard display
+
+
