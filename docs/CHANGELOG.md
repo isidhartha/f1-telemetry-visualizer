@@ -939,3 +939,7 @@ All notable changes are documented here.
 - feat: add rich terminal UI with live leaderboard display
 
 
+### 2024-02-06
+- feat: implement synthetic lap data fallback for CI
+
+
