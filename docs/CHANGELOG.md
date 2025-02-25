@@ -943,3 +943,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2024-02-08
+- fix: correct lap time parsing for sector 3 edge case
+
+
