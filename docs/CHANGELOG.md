@@ -947,3 +947,7 @@ All notable changes are documented here.
 - fix: correct lap time parsing for sector 3 edge case
 
 
+### 2024-02-09
+- fix: correct time alignment when laps share same timestamp
+
+
