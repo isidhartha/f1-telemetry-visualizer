@@ -951,3 +951,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2024-02-13
+- refactor: extract telemetry loading into dedicated module
+
+
