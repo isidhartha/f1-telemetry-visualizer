@@ -955,3 +955,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2024-02-16
+- fix: handle missing telemetry for early 2022 season races
+
+
