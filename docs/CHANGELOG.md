@@ -959,3 +959,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2024-02-20
+- perf: cache computed distance axis to avoid recomputation
+
+
