@@ -963,3 +963,7 @@ All notable changes are documented here.
 - perf: cache computed distance axis to avoid recomputation
 
 
+### 2024-02-23
+- docs: document all telemetry column definitions and units
+
+
