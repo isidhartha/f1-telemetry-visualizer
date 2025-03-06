@@ -967,3 +967,7 @@ All notable changes are documented here.
 - docs: document all telemetry column definitions and units
 
 
+### 2024-02-24
+- docs: update FastF1 cache configuration guide
+
+
