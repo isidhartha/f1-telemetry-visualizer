@@ -971,3 +971,7 @@ All notable changes are documented here.
 - docs: update FastF1 cache configuration guide
 
 
+### 2024-03-02
+- chore: add fastf1_cache to .gitignore
+
+
