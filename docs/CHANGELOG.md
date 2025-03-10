@@ -975,3 +975,7 @@ All notable changes are documented here.
 - chore: add fastf1_cache to .gitignore
 
 
+### 2024-03-04
+- chore: add pre-commit hooks for black and ruff
+
+
