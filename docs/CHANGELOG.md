@@ -979,3 +979,7 @@ All notable changes are documented here.
 - chore: add pre-commit hooks for black and ruff
 
 
+### 2024-03-06
+- feat: add gap-to-leader streaming in milliseconds
+
+
