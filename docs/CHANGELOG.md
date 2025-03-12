@@ -983,3 +983,7 @@ All notable changes are documented here.
 - feat: add gap-to-leader streaming in milliseconds
 
 
+### 2024-03-06
+- feat: implement sector time breakdown visualization panel
+
+
