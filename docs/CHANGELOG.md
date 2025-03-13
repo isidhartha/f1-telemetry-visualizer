@@ -987,3 +987,7 @@ All notable changes are documented here.
 - feat: implement sector time breakdown visualization panel
 
 
+### 2024-03-09
+- fix: fix matplotlib display on headless CI environments
+
+
