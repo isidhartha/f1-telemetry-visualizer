@@ -991,3 +991,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2024-03-09
+- feat: implement tyre compound colour coding on traces
+
+
