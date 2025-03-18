@@ -995,3 +995,7 @@ All notable changes are documented here.
 - feat: implement tyre compound colour coding on traces
 
 
+### 2024-03-15
+- feat: add multi-driver telemetry comparison overlay
+
+
