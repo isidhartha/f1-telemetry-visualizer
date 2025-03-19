@@ -999,3 +999,7 @@ All notable changes are documented here.
 - feat: add multi-driver telemetry comparison overlay
 
 
+### 2024-03-21
+- feat: implement synthetic lap data fallback for CI
+
+
