@@ -1003,3 +1003,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2024-03-22
+- fix: handle DNF laps in multi-driver comparison mode
+
+
