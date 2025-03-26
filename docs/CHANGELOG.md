@@ -1015,3 +1015,7 @@ All notable changes are documented here.
 - refactor: rename ambiguous variables in lap parser module
 
 
+### 2024-03-26
+- feat: implement interpolated distance axis for alignment
+
+
