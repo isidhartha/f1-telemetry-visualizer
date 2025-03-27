@@ -1019,3 +1019,7 @@ All notable changes are documented here.
 - feat: implement interpolated distance axis for alignment
 
 
+### 2024-03-27
+- feat: add configurable FastF1 cache dir via environment
+
+
