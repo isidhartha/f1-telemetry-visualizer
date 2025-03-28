@@ -1023,3 +1023,7 @@ All notable changes are documented here.
 - feat: add configurable FastF1 cache dir via environment
 
 
+### 2024-03-29
+- feat: implement circuit map with racing line overlay
+
+
