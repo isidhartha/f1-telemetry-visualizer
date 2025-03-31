@@ -1027,3 +1027,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2024-03-29
+- test: add unit tests for lap time parser
+
+
