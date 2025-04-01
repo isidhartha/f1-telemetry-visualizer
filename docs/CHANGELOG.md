@@ -1031,3 +1031,7 @@ All notable changes are documented here.
 - test: add unit tests for lap time parser
 
 
+### 2024-03-29
+- docs: add lap comparison usage examples to README
+
+
