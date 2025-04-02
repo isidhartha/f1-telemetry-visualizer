@@ -1035,3 +1035,7 @@ All notable changes are documented here.
 - docs: add lap comparison usage examples to README
 
 
+### 2024-03-31
+- fix: handle missing pit stop data in cached sessions
+
+
