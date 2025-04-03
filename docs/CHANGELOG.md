@@ -1039,3 +1039,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2024-04-01
+- feat: implement live WebSocket broadcast for session data
+
+
