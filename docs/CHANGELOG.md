@@ -1043,3 +1043,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2024-04-02
+- fix: correct tyre compound mapping for 2022 season codes
+
+
