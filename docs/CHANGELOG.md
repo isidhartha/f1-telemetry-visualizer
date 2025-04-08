@@ -1047,3 +1047,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2024-04-03
+- test: add unit tests for lap time parser
+
+
