@@ -1051,3 +1051,7 @@ All notable changes are documented here.
 - test: add unit tests for lap time parser
 
 
+### 2024-04-03
+- chore: pin pandas version for dtype compatibility
+
+
