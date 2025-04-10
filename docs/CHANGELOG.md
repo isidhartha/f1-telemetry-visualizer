@@ -1055,3 +1055,7 @@ All notable changes are documented here.
 - chore: pin pandas version for dtype compatibility
 
 
+### 2024-04-03
+- feat: add pit stop detection and automatic lap exclusion
+
+
