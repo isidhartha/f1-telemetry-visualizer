@@ -1059,3 +1059,7 @@ All notable changes are documented here.
 - feat: add pit stop detection and automatic lap exclusion
 
 
+### 2024-04-05
+- feat: add automatic reconnection for dropped clients
+
+
