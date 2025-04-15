@@ -1063,3 +1063,7 @@ All notable changes are documented here.
 - feat: add automatic reconnection for dropped clients
 
 
+### 2024-04-18
+- feat: implement DRS zone detection from car data channels
+
+
