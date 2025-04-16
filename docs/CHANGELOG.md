@@ -1067,3 +1067,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2024-04-20
+- feat: add gear trace visualization alongside speed profile
+
+
