@@ -1075,3 +1075,7 @@ All notable changes are documented here.
 - fix: correct lap time parsing for sector 3 edge case
 
 
+### 2024-04-23
+- refactor: extract circuit map renderer to separate class
+
+
