@@ -1079,3 +1079,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2024-04-24
+- test: add WebSocket broadcast unit tests
+
+
