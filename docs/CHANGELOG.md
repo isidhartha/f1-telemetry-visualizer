@@ -1083,3 +1083,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2024-04-25
+- fix: correct DRS detection for Monaco street circuit
+
+
