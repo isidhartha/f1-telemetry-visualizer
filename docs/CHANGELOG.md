@@ -1087,3 +1087,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2024-04-29
+- perf: cache computed distance axis to avoid recomputation
+
+
