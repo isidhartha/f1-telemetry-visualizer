@@ -1091,3 +1091,7 @@ All notable changes are documented here.
 - perf: cache computed distance axis to avoid recomputation
 
 
+### 2024-05-08
+- feat: add multi-driver telemetry comparison overlay
+
+
