@@ -1095,3 +1095,7 @@ All notable changes are documented here.
 - feat: add multi-driver telemetry comparison overlay
 
 
+### 2024-05-17
+- feat: implement multi-client WebSocket fan-out server
+
+
