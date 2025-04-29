@@ -1099,3 +1099,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2024-05-26
+- fix: correct tyre compound mapping for 2022 season codes
+
+
