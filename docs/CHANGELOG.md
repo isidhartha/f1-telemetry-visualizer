@@ -1103,3 +1103,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2024-05-29
+- fix: handle DNF laps in multi-driver comparison mode
+
+
