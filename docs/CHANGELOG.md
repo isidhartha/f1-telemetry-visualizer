@@ -1107,3 +1107,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2024-05-29
+- chore: pin pandas version for dtype compatibility
+
+
