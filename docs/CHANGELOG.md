@@ -1111,3 +1111,7 @@ All notable changes are documented here.
 - chore: pin pandas version for dtype compatibility
 
 
+### 2024-05-31
+- test: add tests for telemetry alignment edge cases
+
+
