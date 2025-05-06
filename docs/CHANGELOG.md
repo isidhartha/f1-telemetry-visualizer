@@ -1115,3 +1115,7 @@ All notable changes are documented here.
 - test: add tests for telemetry alignment edge cases
 
 
+### 2024-06-01
+- feat: add compound strategy timeline for full race
+
+
