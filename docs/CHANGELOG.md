@@ -1119,3 +1119,7 @@ All notable changes are documented here.
 - feat: add compound strategy timeline for full race
 
 
+### 2024-06-01
+- feat: implement interpolated distance axis for alignment
+
+
