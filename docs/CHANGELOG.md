@@ -1123,3 +1123,7 @@ All notable changes are documented here.
 - feat: implement interpolated distance axis for alignment
 
 
+### 2024-06-09
+- refactor: extract circuit map renderer to separate class
+
+
