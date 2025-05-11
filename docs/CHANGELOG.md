@@ -1127,3 +1127,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2024-06-10
+- refactor: rename ambiguous variables in lap parser module
+
+
