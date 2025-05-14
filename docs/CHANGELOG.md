@@ -1135,3 +1135,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2024-06-30
+- refactor: move all plotting functions to visualizer module
+
+
