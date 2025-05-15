@@ -1139,3 +1139,7 @@ All notable changes are documented here.
 - refactor: move all plotting functions to visualizer module
 
 
+### 2024-07-01
+- feat: add CSV export for aligned telemetry channels
+
+
