@@ -1143,3 +1143,7 @@ All notable changes are documented here.
 - feat: add CSV export for aligned telemetry channels
 
 
+### 2024-07-02
+- chore: update FastF1 dependency to 3.3.x
+
+
