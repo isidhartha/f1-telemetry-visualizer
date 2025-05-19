@@ -1147,3 +1147,7 @@ All notable changes are documented here.
 - chore: update FastF1 dependency to 3.3.x
 
 
+### 2024-07-03
+- feat: implement session selection via interactive prompt
+
+
