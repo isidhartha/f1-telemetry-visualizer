@@ -1151,3 +1151,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2024-07-04
+- fix: correct time alignment when laps share same timestamp
+
+
