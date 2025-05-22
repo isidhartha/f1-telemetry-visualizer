@@ -1155,3 +1155,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2024-07-17
+- style: format all source files with black
+
+
