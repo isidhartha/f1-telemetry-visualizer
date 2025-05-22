@@ -1159,3 +1159,7 @@ All notable changes are documented here.
 - style: format all source files with black
 
 
+### 2024-07-23
+- feat: implement DRS zone detection from car data channels
+
+
