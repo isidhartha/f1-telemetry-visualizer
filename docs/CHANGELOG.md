@@ -1163,3 +1163,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2024-07-24
+- feat: implement driver pace heatmap by lap
+
+
