@@ -1167,3 +1167,7 @@ All notable changes are documented here.
 - feat: implement driver pace heatmap by lap
 
 
+### 2024-07-25
+- perf: use numpy vectorisation in telemetry alignment
+
+
