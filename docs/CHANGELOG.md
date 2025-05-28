@@ -1171,3 +1171,7 @@ All notable changes are documented here.
 - perf: use numpy vectorisation in telemetry alignment
 
 
+### 2024-07-31
+- test: add regression test for DNF lap exclusion logic
+
+
