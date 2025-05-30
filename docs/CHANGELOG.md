@@ -1175,3 +1175,7 @@ All notable changes are documented here.
 - test: add regression test for DNF lap exclusion logic
 
 
+### 2024-07-31
+- fix: handle FastF1 API rate limit with backoff
+
+
