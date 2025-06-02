@@ -1179,3 +1179,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2024-08-02
+- docs: add circuit map colour legend documentation
+
+
