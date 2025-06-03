@@ -1183,3 +1183,7 @@ All notable changes are documented here.
 - docs: add circuit map colour legend documentation
 
 
+### 2024-08-03
+- feat: add CSV export for aligned telemetry channels
+
+
