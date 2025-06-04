@@ -1187,3 +1187,7 @@ All notable changes are documented here.
 - feat: add CSV export for aligned telemetry channels
 
 
+### 2024-08-07
+- feat: implement multi-client WebSocket fan-out server
+
+
