@@ -1191,3 +1191,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2024-08-08
+- feat: add gap-to-leader streaming in milliseconds
+
+
