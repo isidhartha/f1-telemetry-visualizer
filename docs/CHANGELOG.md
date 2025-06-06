@@ -1195,3 +1195,7 @@ All notable changes are documented here.
 - feat: add gap-to-leader streaming in milliseconds
 
 
+### 2024-08-08
+- refactor: rename ambiguous variables in lap parser module
+
+
