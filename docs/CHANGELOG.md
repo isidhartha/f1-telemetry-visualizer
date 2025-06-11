@@ -1203,3 +1203,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2024-08-19
+- feat: implement DRS zone detection from car data channels
+
+
