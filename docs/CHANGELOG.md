@@ -1207,3 +1207,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2024-08-19
+- feat: implement synthetic lap data fallback for CI
+
+
