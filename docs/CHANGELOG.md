@@ -1211,3 +1211,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2024-08-22
+- fix: handle missing pit stop data in cached sessions
+
+
