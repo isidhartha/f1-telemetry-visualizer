@@ -1215,3 +1215,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2024-08-22
+- docs: document WebSocket message schema in docs/API.md
+
+
