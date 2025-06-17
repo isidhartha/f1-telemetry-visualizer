@@ -1219,3 +1219,7 @@ All notable changes are documented here.
 - docs: document WebSocket message schema in docs/API.md
 
 
+### 2024-08-26
+- feat: add session selector for race qualifying and practice
+
+
