@@ -1223,3 +1223,7 @@ All notable changes are documented here.
 - feat: add session selector for race qualifying and practice
 
 
+### 2024-08-27
+- fix: resolve crash when selected driver has zero valid laps
+
+
