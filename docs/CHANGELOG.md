@@ -1227,3 +1227,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2024-08-27
+- chore: add pre-commit hooks for black and ruff
+
+
