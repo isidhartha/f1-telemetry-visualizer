@@ -1231,3 +1231,7 @@ All notable changes are documented here.
 - chore: add pre-commit hooks for black and ruff
 
 
+### 2024-08-27
+- refactor: extract telemetry loading into dedicated module
+
+
