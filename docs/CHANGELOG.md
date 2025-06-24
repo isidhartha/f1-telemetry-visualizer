@@ -1235,3 +1235,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2024-08-29
+- docs: update installation steps for Windows users
+
+
