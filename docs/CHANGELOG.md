@@ -1239,3 +1239,7 @@ All notable changes are documented here.
 - docs: update installation steps for Windows users
 
 
+### 2024-08-30
+- refactor: move all plotting functions to visualizer module
+
+
