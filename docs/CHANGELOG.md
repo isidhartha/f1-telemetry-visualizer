@@ -1243,3 +1243,7 @@ All notable changes are documented here.
 - refactor: move all plotting functions to visualizer module
 
 
+### 2024-09-03
+- test: add integration test with cached 2023 session data
+
+
