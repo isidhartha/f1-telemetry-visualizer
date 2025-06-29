@@ -1247,3 +1247,7 @@ All notable changes are documented here.
 - test: add integration test with cached 2023 session data
 
 
+### 2024-09-03
+- perf: cache computed distance axis to avoid recomputation
+
+
