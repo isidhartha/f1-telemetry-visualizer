@@ -1255,3 +1255,7 @@ All notable changes are documented here.
 - feat: implement lap telemetry parser for speed and throttle channels
 
 
+### 2024-09-06
+- chore: update FastF1 dependency to 3.3.x
+
+
