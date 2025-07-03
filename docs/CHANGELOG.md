@@ -1259,3 +1259,7 @@ All notable changes are documented here.
 - chore: update FastF1 dependency to 3.3.x
 
 
+### 2024-09-09
+- perf: cache computed distance axis to avoid recomputation
+
+
