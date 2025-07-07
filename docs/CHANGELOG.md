@@ -1267,3 +1267,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2024-09-22
+- perf: reduce peak memory in multi-driver comparison
+
+
