@@ -1271,3 +1271,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2024-09-28
+- fix: resolve crash when selected driver has zero valid laps
+
+
