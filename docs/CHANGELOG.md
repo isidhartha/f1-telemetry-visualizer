@@ -1279,3 +1279,7 @@ All notable changes are documented here.
 - feat: implement lap telemetry parser for speed and throttle channels
 
 
+### 2024-10-01
+- feat: implement DRS zone detection from car data channels
+
+
