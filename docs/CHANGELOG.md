@@ -1283,3 +1283,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2024-10-08
+- feat: implement weather condition overlay on race charts
+
+
