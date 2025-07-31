@@ -1291,3 +1291,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2024-10-21
+- docs: add circuit map colour legend documentation
+
+
