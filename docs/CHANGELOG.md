@@ -1295,3 +1295,7 @@ All notable changes are documented here.
 - docs: add circuit map colour legend documentation
 
 
+### 2024-10-29
+- feat: implement session selection via interactive prompt
+
+
