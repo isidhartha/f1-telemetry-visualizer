@@ -1299,3 +1299,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2024-11-05
+- feat: implement brake pressure overlay on lap comparison
+
+
