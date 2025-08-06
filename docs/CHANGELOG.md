@@ -1303,3 +1303,7 @@ All notable changes are documented here.
 - feat: implement brake pressure overlay on lap comparison
 
 
+### 2024-11-07
+- feat: add multi-driver telemetry comparison overlay
+
+
