@@ -1315,3 +1315,7 @@ All notable changes are documented here.
 - feat: implement batch circuit map export for all drivers
 
 
+### 2024-11-19
+- feat: add automatic reconnection for dropped clients
+
+
