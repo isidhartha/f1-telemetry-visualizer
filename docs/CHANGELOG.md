@@ -1323,3 +1323,7 @@ All notable changes are documented here.
 - feat: add rich terminal UI with live leaderboard display
 
 
+### 2024-11-28
+- fix: handle FastF1 API rate limit with backoff
+
+
