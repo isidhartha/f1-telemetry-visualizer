@@ -1331,3 +1331,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2024-12-06
+- fix: handle FastF1 API rate limit with backoff
+
+
