@@ -1335,3 +1335,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2024-12-06
+- fix: correct sector boundary detection for specific circuits
+
+
