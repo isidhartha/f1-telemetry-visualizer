@@ -1343,3 +1343,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2024-12-14
+- docs: update architecture diagram in docs/architecture.md
+
+
