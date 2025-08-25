@@ -1351,3 +1351,7 @@ All notable changes are documented here.
 - refactor: separate visualization from data processing logic
 
 
+### 2024-12-20
+- fix: fix matplotlib display on headless CI environments
+
+
