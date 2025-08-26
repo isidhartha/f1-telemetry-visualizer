@@ -1355,3 +1355,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2024-12-26
+- perf: cache computed distance axis to avoid recomputation
+
+
