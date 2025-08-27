@@ -1359,3 +1359,7 @@ All notable changes are documented here.
 - perf: cache computed distance axis to avoid recomputation
 
 
+### 2025-01-02
+- style: normalise import ordering with isort
+
+
