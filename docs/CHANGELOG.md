@@ -1363,3 +1363,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2025-01-07
+- fix: correct tyre compound mapping for 2022 season codes
+
+
