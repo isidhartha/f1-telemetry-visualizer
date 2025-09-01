@@ -1367,3 +1367,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2025-01-12
+- refactor: consolidate session loading into utility class
+
+
