@@ -1371,3 +1371,7 @@ All notable changes are documented here.
 - refactor: consolidate session loading into utility class
 
 
+### 2025-01-15
+- fix: handle missing telemetry for early 2022 season races
+
+
