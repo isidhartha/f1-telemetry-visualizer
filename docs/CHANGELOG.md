@@ -1375,3 +1375,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2025-01-19
+- docs: document WebSocket message schema in docs/API.md
+
+
