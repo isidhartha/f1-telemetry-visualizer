@@ -1379,3 +1379,7 @@ All notable changes are documented here.
 - docs: document WebSocket message schema in docs/API.md
 
 
+### 2025-01-20
+- feat: add compound strategy timeline for full race
+
+
