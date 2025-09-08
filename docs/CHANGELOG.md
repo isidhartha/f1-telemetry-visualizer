@@ -1383,3 +1383,7 @@ All notable changes are documented here.
 - feat: add compound strategy timeline for full race
 
 
+### 2025-02-03
+- feat: add pit stop detection and automatic lap exclusion
+
+
