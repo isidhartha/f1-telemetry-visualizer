@@ -1387,3 +1387,7 @@ All notable changes are documented here.
 - feat: add pit stop detection and automatic lap exclusion
 
 
+### 2025-02-05
+- feat: implement weather condition overlay on race charts
+
+
