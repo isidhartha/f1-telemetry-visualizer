@@ -1395,3 +1395,7 @@ All notable changes are documented here.
 - feat: add configurable FastF1 cache dir via environment
 
 
+### 2025-02-10
+- feat: implement lap telemetry parser for speed and throttle channels
+
+
