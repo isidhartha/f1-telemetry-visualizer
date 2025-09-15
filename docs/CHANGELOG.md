@@ -1403,3 +1403,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2025-02-17
+- feat: implement lap telemetry parser for speed and throttle channels
+
+
