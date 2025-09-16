@@ -1407,3 +1407,7 @@ All notable changes are documented here.
 - feat: implement lap telemetry parser for speed and throttle channels
 
 
+### 2025-02-19
+- feat: implement session selection via interactive prompt
+
+
