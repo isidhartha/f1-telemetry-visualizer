@@ -1411,3 +1411,7 @@ All notable changes are documented here.
 - feat: implement session selection via interactive prompt
 
 
+### 2025-02-22
+- feat: implement live WebSocket broadcast for session data
+
+
