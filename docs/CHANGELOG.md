@@ -1415,3 +1415,7 @@ All notable changes are documented here.
 - feat: implement live WebSocket broadcast for session data
 
 
+### 2025-02-22
+- fix: fix incorrect lap count when VSC period is active
+
+
