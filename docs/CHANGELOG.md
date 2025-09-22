@@ -1419,3 +1419,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2025-02-24
+- feat: implement multi-client WebSocket fan-out server
+
+
