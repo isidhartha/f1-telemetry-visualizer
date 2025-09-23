@@ -1423,3 +1423,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2025-02-27
+- docs: document WebSocket message schema in docs/API.md
+
+
