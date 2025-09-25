@@ -1427,3 +1427,7 @@ All notable changes are documented here.
 - docs: document WebSocket message schema in docs/API.md
 
 
+### 2025-02-28
+- fix: handle FastF1 API rate limit with backoff
+
+
