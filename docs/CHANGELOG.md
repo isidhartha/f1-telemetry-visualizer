@@ -1431,3 +1431,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2025-03-04
+- style: format all source files with black
+
+
