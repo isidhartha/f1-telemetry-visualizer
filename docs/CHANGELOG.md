@@ -1435,3 +1435,7 @@ All notable changes are documented here.
 - style: format all source files with black
 
 
+### 2025-03-18
+- refactor: split large render function into focused helpers
+
+
