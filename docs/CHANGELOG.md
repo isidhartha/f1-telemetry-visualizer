@@ -1439,3 +1439,7 @@ All notable changes are documented here.
 - refactor: split large render function into focused helpers
 
 
+### 2025-03-25
+- feat: implement driver pace heatmap by lap
+
+
