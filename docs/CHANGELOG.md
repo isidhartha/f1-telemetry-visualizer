@@ -1443,3 +1443,7 @@ All notable changes are documented here.
 - feat: implement driver pace heatmap by lap
 
 
+### 2025-03-31
+- feat: add lap time delta chart between selected drivers
+
+
