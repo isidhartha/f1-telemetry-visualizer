@@ -1447,3 +1447,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2025-04-01
+- feat: implement weather condition overlay on race charts
+
+
