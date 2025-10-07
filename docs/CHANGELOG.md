@@ -1451,3 +1451,7 @@ All notable changes are documented here.
 - feat: implement weather condition overlay on race charts
 
 
+### 2025-04-01
+- fix: correct sector boundary detection for specific circuits
+
+
