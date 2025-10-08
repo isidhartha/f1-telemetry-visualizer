@@ -1455,3 +1455,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2025-04-04
+- refactor: simplify telemetry alignment with vectorised ops
+
+
