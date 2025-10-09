@@ -1459,3 +1459,7 @@ All notable changes are documented here.
 - refactor: simplify telemetry alignment with vectorised ops
 
 
+### 2025-04-04
+- refactor: move all plotting functions to visualizer module
+
+
