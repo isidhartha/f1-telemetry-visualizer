@@ -1467,3 +1467,7 @@ All notable changes are documented here.
 - refactor: simplify telemetry alignment with vectorised ops
 
 
+### 2025-04-07
+- feat: implement interpolated distance axis for alignment
+
+
