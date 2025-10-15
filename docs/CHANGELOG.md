@@ -1471,3 +1471,7 @@ All notable changes are documented here.
 - feat: implement interpolated distance axis for alignment
 
 
+### 2025-04-09
+- perf: use numpy vectorisation in telemetry alignment
+
+
