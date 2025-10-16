@@ -1475,3 +1475,7 @@ All notable changes are documented here.
 - perf: use numpy vectorisation in telemetry alignment
 
 
+### 2025-04-10
+- feat: add FastF1 session loader with local cache support
+
+
