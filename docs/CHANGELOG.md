@@ -1479,3 +1479,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2025-04-14
+- feat: add compound strategy timeline for full race
+
+
