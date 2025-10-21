@@ -1483,3 +1483,7 @@ All notable changes are documented here.
 - feat: add compound strategy timeline for full race
 
 
+### 2025-04-15
+- refactor: extract telemetry loading into dedicated module
+
+
