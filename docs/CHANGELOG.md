@@ -1487,3 +1487,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2025-04-18
+- perf: cache computed distance axis to avoid recomputation
+
+
