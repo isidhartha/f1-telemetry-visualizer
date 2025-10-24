@@ -1491,3 +1491,7 @@ All notable changes are documented here.
 - perf: cache computed distance axis to avoid recomputation
 
 
+### 2025-04-21
+- feat: implement interpolated distance axis for alignment
+
+
