@@ -1495,3 +1495,7 @@ All notable changes are documented here.
 - feat: implement interpolated distance axis for alignment
 
 
+### 2025-04-24
+- feat: add gear trace visualization alongside speed profile
+
+
