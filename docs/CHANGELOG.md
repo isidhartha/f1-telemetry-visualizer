@@ -1499,3 +1499,7 @@ All notable changes are documented here.
 - feat: add gear trace visualization alongside speed profile
 
 
+### 2025-05-05
+- feat: implement multi-client WebSocket fan-out server
+
+
