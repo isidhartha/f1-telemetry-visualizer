@@ -1503,3 +1503,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2025-05-06
+- feat: add FastF1 session loader with local cache support
+
+
