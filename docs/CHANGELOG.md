@@ -1507,3 +1507,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2025-05-07
+- fix: fix interpolation edge case at lap start boundary
+
+
