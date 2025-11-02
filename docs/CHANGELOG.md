@@ -1511,3 +1511,7 @@ All notable changes are documented here.
 - fix: fix interpolation edge case at lap start boundary
 
 
+### 2025-05-08
+- feat: add configurable FastF1 cache dir via environment
+
+
