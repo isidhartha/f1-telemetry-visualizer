@@ -1519,3 +1519,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2025-05-16
+- test: add WebSocket broadcast unit tests
+
+
