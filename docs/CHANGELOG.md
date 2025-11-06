@@ -1527,3 +1527,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2025-05-28
+- fix: resolve encoding issue in non-ASCII driver name display
+
+
