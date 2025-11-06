@@ -1523,3 +1523,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2025-05-22
+- perf: reduce peak memory in multi-driver comparison
+
+
