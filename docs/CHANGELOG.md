@@ -1531,3 +1531,7 @@ All notable changes are documented here.
 - fix: resolve encoding issue in non-ASCII driver name display
 
 
+### 2025-06-02
+- feat: add FastF1 session loader with local cache support
+
+
