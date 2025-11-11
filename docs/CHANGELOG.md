@@ -1535,3 +1535,7 @@ All notable changes are documented here.
 - feat: add FastF1 session loader with local cache support
 
 
+### 2025-06-07
+- feat: add gear trace visualization alongside speed profile
+
+
