@@ -1547,3 +1547,7 @@ All notable changes are documented here.
 - refactor: replace manual loop with pandas apply in parser
 
 
+### 2025-06-10
+- feat: add pit stop detection and automatic lap exclusion
+
+
