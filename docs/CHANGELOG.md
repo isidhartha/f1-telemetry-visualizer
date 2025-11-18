@@ -1551,3 +1551,7 @@ All notable changes are documented here.
 - feat: add pit stop detection and automatic lap exclusion
 
 
+### 2025-06-10
+- perf: use numpy vectorisation in telemetry alignment
+
+
