@@ -1555,3 +1555,7 @@ All notable changes are documented here.
 - perf: use numpy vectorisation in telemetry alignment
 
 
+### 2025-06-19
+- fix: correct time alignment when laps share same timestamp
+
+
