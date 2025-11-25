@@ -1567,3 +1567,7 @@ All notable changes are documented here.
 - feat: implement weather condition overlay on race charts
 
 
+### 2025-06-24
+- docs: add troubleshooting section for headless display
+
+
