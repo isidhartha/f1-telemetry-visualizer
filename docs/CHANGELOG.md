@@ -1571,3 +1571,7 @@ All notable changes are documented here.
 - docs: add troubleshooting section for headless display
 
 
+### 2025-06-25
+- fix: fix matplotlib display on headless CI environments
+
+
