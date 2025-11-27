@@ -1575,3 +1575,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2025-06-26
+- docs: update installation steps for Windows users
+
+
