@@ -1583,3 +1583,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2025-06-27
+- fix: handle missing telemetry for early 2022 season races
+
+
