@@ -1587,3 +1587,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2025-07-03
+- feat: add fastest lap highlight across all drivers
+
+
