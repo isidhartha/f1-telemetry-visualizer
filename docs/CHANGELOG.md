@@ -1591,3 +1591,7 @@ All notable changes are documented here.
 - feat: add fastest lap highlight across all drivers
 
 
+### 2025-07-04
+- fix: correct tyre compound mapping for 2022 season codes
+
+
