@@ -1595,3 +1595,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2025-07-18
+- feat: add multi-driver telemetry comparison overlay
+
+
