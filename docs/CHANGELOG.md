@@ -1599,3 +1599,7 @@ All notable changes are documented here.
 - feat: add multi-driver telemetry comparison overlay
 
 
+### 2025-07-19
+- fix: handle DNF laps in multi-driver comparison mode
+
+
