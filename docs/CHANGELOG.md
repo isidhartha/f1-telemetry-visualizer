@@ -1607,3 +1607,7 @@ All notable changes are documented here.
 - feat: add multi-driver telemetry comparison overlay
 
 
+### 2025-07-24
+- docs: document all telemetry column definitions and units
+
+
