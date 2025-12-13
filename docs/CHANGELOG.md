@@ -1611,3 +1611,7 @@ All notable changes are documented here.
 - docs: document all telemetry column definitions and units
 
 
+### 2025-08-01
+- docs: add lap comparison usage examples to README
+
+
