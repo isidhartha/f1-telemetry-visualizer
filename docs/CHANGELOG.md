@@ -1615,3 +1615,7 @@ All notable changes are documented here.
 - docs: add lap comparison usage examples to README
 
 
+### 2025-08-10
+- chore: update FastF1 dependency to 3.3.x
+
+
