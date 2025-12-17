@@ -1619,3 +1619,7 @@ All notable changes are documented here.
 - chore: update FastF1 dependency to 3.3.x
 
 
+### 2025-08-10
+- feat: add lap time delta chart between selected drivers
+
+
