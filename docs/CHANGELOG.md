@@ -1623,3 +1623,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2025-08-12
+- feat: add CSV export for aligned telemetry channels
+
+
