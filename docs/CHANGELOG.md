@@ -1627,3 +1627,7 @@ All notable changes are documented here.
 - feat: add CSV export for aligned telemetry channels
 
 
+### 2025-08-12
+- fix: fix interpolation edge case at lap start boundary
+
+
