@@ -1631,3 +1631,7 @@ All notable changes are documented here.
 - fix: fix interpolation edge case at lap start boundary
 
 
+### 2025-08-13
+- feat: add session selector for race qualifying and practice
+
+
