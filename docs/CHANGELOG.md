@@ -1635,3 +1635,7 @@ All notable changes are documented here.
 - feat: add session selector for race qualifying and practice
 
 
+### 2025-08-19
+- refactor: rename ambiguous variables in lap parser module
+
+
