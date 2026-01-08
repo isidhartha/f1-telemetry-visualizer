@@ -1639,3 +1639,7 @@ All notable changes are documented here.
 - refactor: rename ambiguous variables in lap parser module
 
 
+### 2025-08-20
+- fix: handle DNF laps in multi-driver comparison mode
+
+
