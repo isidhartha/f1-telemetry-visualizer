@@ -1643,3 +1643,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2025-08-22
+- refactor: move all plotting functions to visualizer module
+
+
