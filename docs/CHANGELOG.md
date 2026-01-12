@@ -1647,3 +1647,7 @@ All notable changes are documented here.
 - refactor: move all plotting functions to visualizer module
 
 
+### 2025-08-23
+- fix: correct tyre compound mapping for 2022 season codes
+
+
