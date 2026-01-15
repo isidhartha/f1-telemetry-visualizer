@@ -1655,3 +1655,7 @@ All notable changes are documented here.
 - feat: add session selector for race qualifying and practice
 
 
+### 2025-08-25
+- fix: correct lap time parsing for sector 3 edge case
+
+
