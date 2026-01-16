@@ -1659,3 +1659,7 @@ All notable changes are documented here.
 - fix: correct lap time parsing for sector 3 edge case
 
 
+### 2025-08-26
+- style: fix line length violations in visualizer module
+
+
