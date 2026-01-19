@@ -1663,3 +1663,7 @@ All notable changes are documented here.
 - style: fix line length violations in visualizer module
 
 
+### 2025-08-27
+- feat: add lap time delta chart between selected drivers
+
+
