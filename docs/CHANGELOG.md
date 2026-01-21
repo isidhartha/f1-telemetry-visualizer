@@ -1667,3 +1667,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2025-08-29
+- perf: use numpy vectorisation in telemetry alignment
+
+
