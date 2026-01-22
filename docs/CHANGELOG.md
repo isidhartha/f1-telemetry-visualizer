@@ -1671,3 +1671,7 @@ All notable changes are documented here.
 - perf: use numpy vectorisation in telemetry alignment
 
 
+### 2025-08-31
+- feat: add configurable FastF1 cache dir via environment
+
+
