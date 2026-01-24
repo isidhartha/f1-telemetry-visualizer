@@ -1675,3 +1675,7 @@ All notable changes are documented here.
 - feat: add configurable FastF1 cache dir via environment
 
 
+### 2025-09-02
+- feat: implement synthetic lap data fallback for CI
+
+
