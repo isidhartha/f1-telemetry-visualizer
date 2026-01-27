@@ -1679,3 +1679,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2025-09-06
+- feat: add CSV export for aligned telemetry channels
+
+
