@@ -1687,3 +1687,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2025-09-11
+- fix: correct time alignment when laps share same timestamp
+
+
