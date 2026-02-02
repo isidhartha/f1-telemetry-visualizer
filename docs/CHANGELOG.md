@@ -1691,3 +1691,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2025-09-15
+- fix: handle timezone offset in session timestamp parsing
+
+
