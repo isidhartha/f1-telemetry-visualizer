@@ -1695,3 +1695,7 @@ All notable changes are documented here.
 - fix: handle timezone offset in session timestamp parsing
 
 
+### 2025-09-20
+- test: add tests for telemetry alignment edge cases
+
+
