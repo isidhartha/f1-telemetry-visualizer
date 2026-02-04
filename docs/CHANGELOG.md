@@ -1699,3 +1699,7 @@ All notable changes are documented here.
 - test: add tests for telemetry alignment edge cases
 
 
+### 2025-09-22
+- docs: add lap comparison usage examples to README
+
+
