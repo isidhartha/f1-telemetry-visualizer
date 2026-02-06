@@ -1707,3 +1707,7 @@ All notable changes are documented here.
 - fix: handle missing pit stop data in cached sessions
 
 
+### 2025-10-01
+- fix: fix matplotlib display on headless CI environments
+
+
