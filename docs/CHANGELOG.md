@@ -1711,3 +1711,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2025-10-02
+- chore: clean up unused imports across modules
+
+
