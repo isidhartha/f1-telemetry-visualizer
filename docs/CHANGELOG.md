@@ -1715,3 +1715,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2025-10-02
+- perf: reduce peak memory in multi-driver comparison
+
+
