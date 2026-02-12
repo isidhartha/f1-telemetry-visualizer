@@ -1719,3 +1719,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2025-10-06
+- feat: add lap time delta chart between selected drivers
+
+
