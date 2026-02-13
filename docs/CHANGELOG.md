@@ -1723,3 +1723,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2025-10-07
+- feat: implement circuit map with racing line overlay
+
+
