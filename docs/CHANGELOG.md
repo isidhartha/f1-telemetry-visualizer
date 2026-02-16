@@ -1727,3 +1727,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2025-10-07
+- feat: implement synthetic lap data fallback for CI
+
+
