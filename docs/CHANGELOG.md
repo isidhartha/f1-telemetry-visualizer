@@ -1731,3 +1731,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2025-10-07
+- fix: handle FastF1 API rate limit with backoff
+
+
