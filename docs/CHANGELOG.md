@@ -1735,3 +1735,7 @@ All notable changes are documented here.
 - fix: handle FastF1 API rate limit with backoff
 
 
+### 2025-10-08
+- fix: correct tyre compound mapping for 2022 season codes
+
+
