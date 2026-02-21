@@ -1739,3 +1739,7 @@ All notable changes are documented here.
 - fix: correct tyre compound mapping for 2022 season codes
 
 
+### 2025-10-08
+- feat: add gear trace visualization alongside speed profile
+
+
