@@ -1743,3 +1743,7 @@ All notable changes are documented here.
 - feat: add gear trace visualization alongside speed profile
 
 
+### 2025-10-14
+- docs: update FastF1 cache configuration guide
+
+
