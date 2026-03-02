@@ -1747,3 +1747,7 @@ All notable changes are documented here.
 - docs: update FastF1 cache configuration guide
 
 
+### 2025-10-19
+- fix: handle timezone offset in session timestamp parsing
+
+
