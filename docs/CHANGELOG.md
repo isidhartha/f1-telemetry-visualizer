@@ -1751,3 +1751,7 @@ All notable changes are documented here.
 - fix: handle timezone offset in session timestamp parsing
 
 
+### 2025-10-21
+- refactor: extract circuit map renderer to separate class
+
+
