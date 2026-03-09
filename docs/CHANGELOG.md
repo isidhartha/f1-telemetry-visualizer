@@ -1755,3 +1755,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2025-10-21
+- fix: resolve crash when selected driver has zero valid laps
+
+
