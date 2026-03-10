@@ -1759,3 +1759,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2025-11-03
+- feat: implement circuit map with racing line overlay
+
+
