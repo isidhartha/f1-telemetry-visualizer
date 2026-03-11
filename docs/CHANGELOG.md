@@ -1763,3 +1763,7 @@ All notable changes are documented here.
 - feat: implement circuit map with racing line overlay
 
 
+### 2025-11-05
+- feat: add race position changes chart over full distance
+
+
