@@ -1767,3 +1767,7 @@ All notable changes are documented here.
 - feat: add race position changes chart over full distance
 
 
+### 2025-11-09
+- fix: handle missing telemetry for early 2022 season races
+
+
