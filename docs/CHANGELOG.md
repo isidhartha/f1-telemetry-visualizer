@@ -1771,3 +1771,7 @@ All notable changes are documented here.
 - fix: handle missing telemetry for early 2022 season races
 
 
+### 2025-11-11
+- fix: correct DRS detection for Monaco street circuit
+
+
