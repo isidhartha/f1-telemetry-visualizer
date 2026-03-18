@@ -1779,3 +1779,7 @@ All notable changes are documented here.
 - chore: clean up unused imports across modules
 
 
+### 2025-11-13
+- test: add WebSocket broadcast unit tests
+
+
