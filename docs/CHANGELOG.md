@@ -1783,3 +1783,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2025-11-17
+- fix: fix interpolation edge case at lap start boundary
+
+
