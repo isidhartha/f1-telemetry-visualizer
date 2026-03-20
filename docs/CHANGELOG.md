@@ -1787,3 +1787,7 @@ All notable changes are documented here.
 - fix: fix interpolation edge case at lap start boundary
 
 
+### 2025-11-19
+- fix: resolve crash when selected driver has zero valid laps
+
+
