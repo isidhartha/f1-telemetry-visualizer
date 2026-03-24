@@ -1791,3 +1791,7 @@ All notable changes are documented here.
 - fix: resolve crash when selected driver has zero valid laps
 
 
+### 2025-11-21
+- feat: implement synthetic lap data fallback for CI
+
+
