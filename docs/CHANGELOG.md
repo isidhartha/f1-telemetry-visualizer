@@ -1795,3 +1795,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2025-11-30
+- docs: document WebSocket message schema in docs/API.md
+
+
