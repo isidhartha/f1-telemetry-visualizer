@@ -1799,3 +1799,7 @@ All notable changes are documented here.
 - docs: document WebSocket message schema in docs/API.md
 
 
+### 2025-12-01
+- docs: update FastF1 cache configuration guide
+
+
