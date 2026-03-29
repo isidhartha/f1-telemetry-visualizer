@@ -1803,3 +1803,7 @@ All notable changes are documented here.
 - docs: update FastF1 cache configuration guide
 
 
+### 2025-12-01
+- docs: document WebSocket message schema in docs/API.md
+
+
