@@ -1807,3 +1807,7 @@ All notable changes are documented here.
 - docs: document WebSocket message schema in docs/API.md
 
 
+### 2025-12-01
+- refactor: extract circuit map renderer to separate class
+
+
