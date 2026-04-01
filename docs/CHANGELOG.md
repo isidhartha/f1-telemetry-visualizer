@@ -1811,3 +1811,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2025-12-09
+- chore: update FastF1 dependency to 3.3.x
+
+
