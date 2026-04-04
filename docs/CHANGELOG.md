@@ -1819,3 +1819,7 @@ All notable changes are documented here.
 - feat: add fastest lap highlight across all drivers
 
 
+### 2025-12-10
+- test: add regression test for DNF lap exclusion logic
+
+
