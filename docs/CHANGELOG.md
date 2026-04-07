@@ -1827,3 +1827,7 @@ All notable changes are documented here.
 - fix: fix matplotlib display on headless CI environments
 
 
+### 2025-12-24
+- feat: add fastest lap highlight across all drivers
+
+
