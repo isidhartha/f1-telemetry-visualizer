@@ -1831,3 +1831,7 @@ All notable changes are documented here.
 - feat: add fastest lap highlight across all drivers
 
 
+### 2026-01-06
+- fix: correct time alignment when laps share same timestamp
+
+
