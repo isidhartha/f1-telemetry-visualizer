@@ -1835,3 +1835,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2026-02-05
+- test: add integration test with cached 2023 session data
+
+
