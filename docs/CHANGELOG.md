@@ -1843,3 +1843,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2026-02-08
+- refactor: extract telemetry loading into dedicated module
+
+
