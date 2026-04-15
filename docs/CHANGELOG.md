@@ -1847,3 +1847,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2026-02-12
+- test: add integration test with cached 2023 session data
+
+
