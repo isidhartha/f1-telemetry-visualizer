@@ -1851,3 +1851,7 @@ All notable changes are documented here.
 - test: add integration test with cached 2023 session data
 
 
+### 2026-02-13
+- feat: add multi-driver telemetry comparison overlay
+
+
