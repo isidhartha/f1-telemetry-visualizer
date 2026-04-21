@@ -1859,3 +1859,7 @@ All notable changes are documented here.
 - perf: reduce peak memory in multi-driver comparison
 
 
+### 2026-02-17
+- refactor: rename ambiguous variables in lap parser module
+
+
