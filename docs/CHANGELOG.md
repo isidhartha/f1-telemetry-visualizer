@@ -1867,3 +1867,7 @@ All notable changes are documented here.
 - feat: implement interpolated distance axis for alignment
 
 
+### 2026-03-03
+- fix: fix incorrect lap count when VSC period is active
+
+
