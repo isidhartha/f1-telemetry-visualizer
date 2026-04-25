@@ -1871,3 +1871,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2026-03-06
+- docs: document WebSocket message schema in docs/API.md
+
+
