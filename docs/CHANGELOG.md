@@ -1875,3 +1875,7 @@ All notable changes are documented here.
 - docs: document WebSocket message schema in docs/API.md
 
 
+### 2026-03-06
+- docs: update architecture diagram in docs/architecture.md
+
+
