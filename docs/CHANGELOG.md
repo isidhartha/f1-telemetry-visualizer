@@ -1879,3 +1879,7 @@ All notable changes are documented here.
 - docs: update architecture diagram in docs/architecture.md
 
 
+### 2026-03-09
+- fix: resolve NaN values in telemetry alignment step
+
+
