@@ -1887,3 +1887,7 @@ All notable changes are documented here.
 - fix: correct sector boundary detection for specific circuits
 
 
+### 2026-03-13
+- feat: implement synthetic lap data fallback for CI
+
+
