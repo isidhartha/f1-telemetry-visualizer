@@ -1891,3 +1891,7 @@ All notable changes are documented here.
 - feat: implement synthetic lap data fallback for CI
 
 
+### 2026-03-15
+- test: add WebSocket broadcast unit tests
+
+
