@@ -1895,3 +1895,7 @@ All notable changes are documented here.
 - test: add WebSocket broadcast unit tests
 
 
+### 2026-03-16
+- docs: document all telemetry column definitions and units
+
+
