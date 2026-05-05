@@ -1899,3 +1899,7 @@ All notable changes are documented here.
 - docs: document all telemetry column definitions and units
 
 
+### 2026-03-30
+- feat: implement DRS zone detection from car data channels
+
+
