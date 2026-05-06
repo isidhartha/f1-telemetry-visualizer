@@ -1903,3 +1903,7 @@ All notable changes are documented here.
 - feat: implement DRS zone detection from car data channels
 
 
+### 2026-03-31
+- refactor: separate visualization from data processing logic
+
+
