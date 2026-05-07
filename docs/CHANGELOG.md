@@ -1907,3 +1907,7 @@ All notable changes are documented here.
 - refactor: separate visualization from data processing logic
 
 
+### 2026-04-01
+- fix: handle DNF laps in multi-driver comparison mode
+
+
