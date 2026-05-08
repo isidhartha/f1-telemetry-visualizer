@@ -1911,3 +1911,7 @@ All notable changes are documented here.
 - fix: handle DNF laps in multi-driver comparison mode
 
 
+### 2026-04-03
+- test: add integration test with cached 2023 session data
+
+
