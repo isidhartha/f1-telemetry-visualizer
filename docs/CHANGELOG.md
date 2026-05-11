@@ -1915,3 +1915,7 @@ All notable changes are documented here.
 - test: add integration test with cached 2023 session data
 
 
+### 2026-04-05
+- feat: add race position changes chart over full distance
+
+
