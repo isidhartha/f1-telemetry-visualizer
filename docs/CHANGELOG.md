@@ -1919,3 +1919,7 @@ All notable changes are documented here.
 - feat: add race position changes chart over full distance
 
 
+### 2026-04-06
+- chore: update FastF1 dependency to 3.3.x
+
+
