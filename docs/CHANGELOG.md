@@ -1927,3 +1927,7 @@ All notable changes are documented here.
 - feat: add lap time delta chart between selected drivers
 
 
+### 2026-04-15
+- fix: correct time alignment when laps share same timestamp
+
+
