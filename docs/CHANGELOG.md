@@ -1931,3 +1931,7 @@ All notable changes are documented here.
 - fix: correct time alignment when laps share same timestamp
 
 
+### 2026-04-16
+- feat: implement multi-client WebSocket fan-out server
+
+
