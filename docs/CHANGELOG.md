@@ -1935,3 +1935,7 @@ All notable changes are documented here.
 - feat: implement multi-client WebSocket fan-out server
 
 
+### 2026-04-17
+- refactor: extract telemetry loading into dedicated module
+
+
