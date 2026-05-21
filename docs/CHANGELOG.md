@@ -1939,3 +1939,7 @@ All notable changes are documented here.
 - refactor: extract telemetry loading into dedicated module
 
 
+### 2026-04-21
+- refactor: rename ambiguous variables in lap parser module
+
+
