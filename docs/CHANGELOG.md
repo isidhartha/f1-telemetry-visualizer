@@ -1943,3 +1943,7 @@ All notable changes are documented here.
 - refactor: rename ambiguous variables in lap parser module
 
 
+### 2026-04-22
+- feat: add pit stop detection and automatic lap exclusion
+
+
