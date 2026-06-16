@@ -1947,3 +1947,7 @@ All notable changes are documented here.
 - feat: add pit stop detection and automatic lap exclusion
 
 
+### 2026-04-29
+- refactor: extract circuit map renderer to separate class
+
+
