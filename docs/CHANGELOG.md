@@ -1951,3 +1951,7 @@ All notable changes are documented here.
 - refactor: extract circuit map renderer to separate class
 
 
+### 2026-05-04
+- docs: update FastF1 cache configuration guide
+
+
