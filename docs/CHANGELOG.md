@@ -1955,3 +1955,7 @@ All notable changes are documented here.
 - docs: update FastF1 cache configuration guide
 
 
+### 2026-05-12
+- chore: update FastF1 dependency to 3.3.x
+
+
