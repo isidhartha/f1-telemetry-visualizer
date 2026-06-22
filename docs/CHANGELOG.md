@@ -1959,3 +1959,7 @@ All notable changes are documented here.
 - chore: update FastF1 dependency to 3.3.x
 
 
+### 2026-05-16
+- feat: implement driver pace heatmap by lap
+
+
