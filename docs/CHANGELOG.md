@@ -1963,3 +1963,7 @@ All notable changes are documented here.
 - feat: implement driver pace heatmap by lap
 
 
+### 2026-05-17
+- fix: fix incorrect lap count when VSC period is active
+
+
