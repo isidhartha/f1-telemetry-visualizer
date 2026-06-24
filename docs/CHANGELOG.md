@@ -1967,3 +1967,7 @@ All notable changes are documented here.
 - fix: fix incorrect lap count when VSC period is active
 
 
+### 2026-05-20
+- feat: add automatic reconnection for dropped clients
+
+
