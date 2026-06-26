@@ -1971,3 +1971,7 @@ All notable changes are documented here.
 - feat: add automatic reconnection for dropped clients
 
 
+### 2026-06-17
+- refactor: separate visualization from data processing logic
+
+
