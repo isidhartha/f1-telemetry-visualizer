@@ -1975,3 +1975,7 @@ All notable changes are documented here.
 - refactor: separate visualization from data processing logic
 
 
+### 2026-06-17
+- docs: update architecture diagram in docs/architecture.md
+
+
