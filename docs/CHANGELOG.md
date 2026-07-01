@@ -1979,3 +1979,7 @@ All notable changes are documented here.
 - docs: update architecture diagram in docs/architecture.md
 
 
+### 2026-06-20
+- fix: correct DRS detection for Monaco street circuit
+
+
