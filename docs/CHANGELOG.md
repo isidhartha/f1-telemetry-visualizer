@@ -1983,3 +1983,7 @@ All notable changes are documented here.
 - fix: correct DRS detection for Monaco street circuit
 
 
+### 2026-06-28
+- feat: implement batch circuit map export for all drivers
+
+
