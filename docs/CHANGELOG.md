@@ -1987,3 +1987,7 @@ All notable changes are documented here.
 - feat: implement batch circuit map export for all drivers
 
 
+### 2026-06-30
+- refactor: split large render function into focused helpers
+
+
