@@ -1991,3 +1991,7 @@ All notable changes are documented here.
 - refactor: split large render function into focused helpers
 
 
+### 2026-07-06
+- docs: document WebSocket message schema in docs/API.md
+
+
