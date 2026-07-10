@@ -1,5 +1,7 @@
 # F1 Telemetry Visualizer
 
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+
 A desktop application that replays Formula 1 race and qualifying sessions as animated, frame-by-frame visualizations. It fetches official telemetry from the FastF1 API, processes all drivers in parallel using Python multiprocessing, and renders the result as a real-time arcade-style replay window alongside a suite of live insight panels built with PySide6.
 
 **Author:** Ram Sidhartha
@@ -62,33 +64,53 @@ This opens the PySide6 GUI session selector. Choose a year and race weekend from
 
 ```bash
 # List all rounds for a year
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --list-rounds --year 2024
 
 # List sprint rounds
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --list-sprints --year 2024
 
 # Launch a race session directly (bypasses GUI)
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5
 
 # Launch a qualifying session
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5 --qualifying
 
 # Launch a sprint session
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5 --sprint
 
 # Launch sprint qualifying
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5 --sprint-qualifying
 
 # Hide the HUD overlay
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5 --no-hud
 
 # Force re-download of telemetry (bypass cache)
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5 --refresh-data
 
 # Enable verbose FastF1 logging
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --viewer --year 2024 --round 5 --verbose
 
 # Run in headless CLI mode
+
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
 python main.py --cli
 ```
 
