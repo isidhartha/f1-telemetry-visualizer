@@ -4,6 +4,8 @@
 
 A desktop application that replays Formula 1 race and qualifying sessions as animated, real-time visualizations. Pick any race from 2018 onwards from the GUI session selector, load the telemetry via FastF1, and watch all 20 drivers move around the track simultaneously — with DRS zones highlighted, safety car periods animated, and pit stops flagged per driver on the leaderboard. A secondary insights panel gives you live telemetry streams, tyre strategy timelines, gap charts, and race control messages alongside the replay.
 
+I kept wanting to compare how two drivers attack the same corner — same braking point? Same gear? Where does one gain the time? The telemetry data was all there in FastF1 but the standard plots don't make the comparison easy. I built this to put both drivers on the same distance axis so the differences are obvious.
+
 The processing pipeline runs each driver's telemetry in parallel using `multiprocessing.Pool`, resamples everything onto a shared 25 FPS timeline, and caches the result as a pickle file. Subsequent loads of the same session skip the processing entirely. The replay engine itself uses the `arcade` library for the animated track map, with PySide6 windows for the GUI session selector and all the floating insight panels.
 
 Qualifying sessions get their own replay mode with Q1/Q2/Q3 segment handling and per-driver fastest lap overlays. Sprint weekends are supported too — the CLI flags `--sprint` and `--sprint-qualifying` select the right session type.
@@ -103,7 +105,18 @@ flowchart TD
 
 ## Demo
 
-> Screenshots coming soon.
+![Desktop view](docs/images/screenshot_desktop.png)
+
+![Feature highlight](docs/images/screenshot_feature.png)
+
+<details>
+<summary>Mobile / compact view</summary>
+
+![Mobile view](docs/images/screenshot_mobile.png)
+
+</details>
+
+![Demo walkthrough](docs/images/demo.gif)
 
 ## Contributing
 
