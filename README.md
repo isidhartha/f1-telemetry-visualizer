@@ -1,37 +1,25 @@
 # F1 Telemetry Visualizer
 
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+A desktop application that replays Formula 1 race and qualifying sessions as animated, real-time visualizations. Pick any race from 2018 onwards from the GUI session selector, load the telemetry via FastF1, and watch all 20 drivers move around the track simultaneously — with DRS zones highlighted, safety car periods animated, and pit stops flagged per driver on the leaderboard. A secondary insights panel gives you live telemetry streams, tyre strategy timelines, gap charts, and race control messages alongside the replay.
 
-A desktop application that replays Formula 1 race and qualifying sessions as animated, frame-by-frame visualizations. It fetches official telemetry from the FastF1 API, processes all drivers in parallel using Python multiprocessing, and renders the result as a real-time arcade-style replay window alongside a suite of live insight panels built with PySide6.
+The processing pipeline runs each driver's telemetry in parallel using `multiprocessing.Pool`, resamples everything onto a shared 25 FPS timeline, and caches the result as a pickle file. Subsequent loads of the same session skip the processing entirely. The replay engine itself uses the `arcade` library for the animated track map, with PySide6 windows for the GUI session selector and all the floating insight panels.
 
-**Author:** Ram Sidhartha
-
----
+Qualifying sessions get their own replay mode with Q1/Q2/Q3 segment handling and per-driver fastest lap overlays. Sprint weekends are supported too — the CLI flags `--sprint` and `--sprint-qualifying` select the right session type.
 
 ## Features
 
-- **PySide6 GUI session selector** — browse the full F1 calendar from 2018 onward, filter by year or race name, and launch any session (Race, Sprint, Qualifying, Sprint Qualifying) from a tree-view interface
-- **Arcade replay engine** — 25 FPS animated track map powered by the `arcade` library, showing all drivers simultaneously with official team colors
-- **Parallel telemetry processing** — each driver's lap-by-lap telemetry is processed concurrently using `multiprocessing.Pool` and resampled onto a shared timeline
-- **Safety car simulation** — physics-based safety car position is computed for every frame, covering deploying, on-track (leading the field), and returning phases with smooth fade animations using a KD-Tree spatial lookup
-- **DRS zone detection** — qualifying lap preferred for accurate DRS data; falls back to fastest race lap with speed-based detection when qualifying is unavailable
-- **Pit stop detection** — per-driver pit windows (PitInTime / PitOutTime) are extracted and injected into every replay frame for leaderboard indicators
-- **Weather data overlay** — track temperature, air temperature, humidity, wind speed, wind direction, and rain state are resampled and attached to each frame
-- **Race control message feed** — FIA race control messages (flags, penalties, safety car, DRS, sector notices) are parsed and time-synchronized to the replay
-- **Qualifying replay mode** — separate animated screen for qualifying sessions showing Q1/Q2/Q3 segments with per-driver fastest-lap telemetry and DRS zone overlays
-- **Insights menu (PySide6)** — secondary floating window that launches individual live analysis panels:
-  - Telemetry Stream Viewer
-  - Driver Live Telemetry (speed, gear, throttle, braking)
-  - Live Tyre Strategy (stint timeline and pit stop history per driver)
-  - Track Position Map (live driver positions on real or circular layout)
-  - Race Control Feed (flags, penalties, safety car status)
-  - Lap Time and Gap Evolution chart
-- **Pickle cache** — computed telemetry is saved to `computed_data/` so subsequent runs skip re-processing; use `--refresh-data` to force a fresh download
-- **CLI mode** — `--cli` flag bypasses the GUI for headless or scripted usage
-- **HUD toggle** — `--no-hud` hides the overlay for a clean track view
-- **Settings dialog** — configurable FastF1 cache location persisted through the settings module
-
----
+- **PySide6 GUI session selector** — tree-view browser for the full F1 calendar from 2018, filterable by year and race name, with buttons for Race, Sprint, Qualifying, and Sprint Qualifying
+- **Arcade 2D replay window** — animated 25 FPS track map showing all drivers simultaneously using official team colors
+- **Parallel telemetry processing** — `multiprocessing.Pool` processes each driver's data concurrently and resamples onto a shared frame timeline
+- **Safety car physics simulation** — computes safety car position frame by frame through deploying, on-track, and returning phases using KD-tree spatial lookups for smooth animation
+- **DRS zone detection** — prefers qualifying lap for accurate DRS data; falls back to fastest race lap with speed-based detection when qualifying isn't available
+- **Pit stop integration** — PitInTime and PitOutTime extracted per driver and injected into every replay frame for leaderboard display
+- **Weather data overlay** — track temperature, air temperature, humidity, wind speed, wind direction, and rain state resampled and attached to each frame
+- **Race control feed** — FIA messages (flags, penalties, safety car, DRS notices, sector alerts) parsed and time-synchronized to the replay timeline
+- **Qualifying replay mode** — separate animated screen for Q sessions with Q1/Q2/Q3 segment handling and per-driver fastest-lap telemetry
+- **Insights menu** — secondary floating PySide6 window with six panels: Driver Live Telemetry, Live Tyre Strategy, Track Position Map, Race Control Feed, Lap Time and Gap Chart, Telemetry Stream Viewer
+- **Pickle cache** — computed telemetry saved to `computed_data/`; use `--refresh-data` to force a fresh download and reprocess
+- **CLI mode** — `--cli` bypasses the GUI for headless or scripted usage; `--no-hud` hides the overlay for a clean track view
 
 ## Tech Stack
 
@@ -40,186 +28,89 @@ A desktop application that replays Formula 1 race and qualifying sessions as ani
 | `fastf1` | Official F1 telemetry and session data |
 | `pandas` | Data manipulation and lap filtering |
 | `numpy` | Array resampling and timeline construction |
-| `matplotlib` | Supplementary plotting |
-| `arcade` | 2D game-style animated replay window |
-| `pyglet` | Underlying windowing layer used by arcade |
-| `pyside6` | GUI session selector, insights panels, settings |
-| `questionary` | Interactive CLI prompts |
-| `rich` | Terminal formatting and output |
-
----
+| `arcade` | 2D animated replay window |
+| `pyside6` | GUI session selector and insights panels |
+| `matplotlib` | Supplementary plotting in insight windows |
+| `questionary` | Interactive CLI session picker |
+| `rich` | Terminal output formatting |
 
 ## Setup
 
 ```bash
+git clone https://github.com/isidhartha/f1-telemetry-visualizer.git
+cd f1-telemetry-visualizer
 pip install -r requirements.txt
 python main.py
 ```
 
-This opens the PySide6 GUI session selector. Choose a year and race weekend from the tree view, then click a session button (Race, Qualifying, Sprint, Sprint Qualifying) to load and launch the replay.
+This opens the PySide6 session selector. Pick a year and race weekend from the tree, then click a session button to load the telemetry and launch the replay.
 
----
-
-## CLI Usage
+**CLI usage:**
 
 ```bash
-# List all rounds for a year
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# List rounds for a year
 python main.py --list-rounds --year 2024
 
-# List sprint rounds
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
-python main.py --list-sprints --year 2024
-
-# Launch a race session directly (bypasses GUI)
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# Launch race replay directly
 python main.py --viewer --year 2024 --round 5
 
-# Launch a qualifying session
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# Qualifying session
 python main.py --viewer --year 2024 --round 5 --qualifying
 
-# Launch a sprint session
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# Sprint race
 python main.py --viewer --year 2024 --round 5 --sprint
 
-# Launch sprint qualifying
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# Sprint qualifying
 python main.py --viewer --year 2024 --round 5 --sprint-qualifying
 
-# Hide the HUD overlay
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# Hide HUD overlay
 python main.py --viewer --year 2024 --round 5 --no-hud
 
-# Force re-download of telemetry (bypass cache)
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+# Force re-download of session data
 python main.py --viewer --year 2024 --round 5 --refresh-data
-
-# Enable verbose FastF1 logging
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
-python main.py --viewer --year 2024 --round 5 --verbose
-
-# Run in headless CLI mode
-
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
-python main.py --cli
 ```
 
----
-
-## Code Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
     A([python main.py]) --> B{Launch mode}
-    B -- "--cli" --> C[cli_load\nsrc/cli/race_selection.py]
-    B -- no flags --> D[RaceSelectionWindow\nsrc/gui/race_selection.py]
-    B -- "--viewer" --> E[main function]
+    B -- no flags --> C[RaceSelectionWindow\nPySide6 GUI]
+    B -- --viewer --> D[main function]
+    B -- --cli --> E[cli_load]
+    C -- user picks session --> D
 
-    D -- user picks session --> E
+    D -- Race/Sprint --> F[get_race_telemetry\nfastf1 + multiprocessing]
+    D -- Qualifying --> G[get_quali_telemetry\nfastf1 + multiprocessing]
 
-    E -- session_type Q or SQ --> F[get_quali_telemetry\nsrc/f1_data.py]
-    E -- session_type R or S --> G[get_race_telemetry\nsrc/f1_data.py]
+    F --> H[_compute_safety_car_positions\nKD-tree per frame]
+    F --> I[Pickle cache\ncomputed_data/]
+    I --> J[run_arcade_replay\n25 FPS animated map]
 
-    F --> F1[multiprocessing Pool\nper-driver qualifying laps]
-    F1 --> F2[get_driver_quali_telemetry\nQ1 / Q2 / Q3 fastest laps]
-    F2 --> F3[Pickle cache\ncomputed_data/]
-    F3 --> F4[run_qualifying_replay\nsrc/interfaces/qualifying.py]
+    G --> K[Pickle cache\ncomputed_data/]
+    K --> L[run_qualifying_replay\nQ1/Q2/Q3 segments]
 
-    G --> G1[multiprocessing Pool\n_process_single_driver]
-    G1 --> G2[Resample all drivers\nonto 25 FPS shared timeline]
-    G2 --> G3[Track status / weather /\nrace control messages]
-    G3 --> G4[_compute_safety_car_positions\ndeploy / on_track / return phases]
-    G4 --> G5[Pickle cache\ncomputed_data/]
-    G5 --> G6[run_arcade_replay\nsrc/run_session.py]
-
-    G6 --> H[F1RaceReplayWindow\nsrc/interfaces/race_replay.py]
-    G6 --> I[launch_insights_menu\nsrc/gui/insights_menu.py]
-
-    I --> J1[Driver Live Telemetry]
-    I --> J2[Tyre Strategy Window]
-    I --> J3[Track Position Map]
-    I --> J4[Race Control Feed]
-    I --> J5[Lap Time & Gap Chart]
-    I --> J6[Telemetry Stream Viewer]
+    J --> M[launch_insights_menu\nPySide6 floating panel]
+    M --> N1[Driver Telemetry]
+    M --> N2[Tyre Strategy]
+    M --> N3[Track Position]
+    M --> N4[Race Control Feed]
+    M --> N5[Lap Time Chart]
+    M --> N6[Telemetry Stream Viewer]
 ```
-
----
-
-## Project Structure
-
-```
-f1-telemetry-visualizer/
-├── main.py                        # Entry point: GUI / CLI / viewer dispatch
-├── requirements.txt
-├── src/
-│   ├── f1_data.py                 # FastF1 fetching, telemetry processing, caching
-│   ├── run_session.py             # Launches arcade replay window and insights menu
-│   ├── bayesian_tyre_model.py     # Tyre degradation modelling
-│   ├── tyre_degradation_integration.py
-│   ├── ui_components.py
-│   ├── cli/
-│   │   └── race_selection.py      # CLI session picker
-│   ├── gui/
-│   │   ├── race_selection.py      # PySide6 session selector window
-│   │   ├── insights_menu.py       # Insights launcher floating panel
-│   │   ├── pit_wall_window.py
-│   │   └── settings_dialog.py
-│   ├── insights/
-│   │   ├── driver_telemetry_window.py
-│   │   ├── lap_time_chart_window.py
-│   │   ├── race_control_feed_window.py
-│   │   ├── telemetry_stream_viewer.py
-│   │   ├── track_position_window.py
-│   │   └── tyre_strategy_window.py
-│   ├── interfaces/
-│   │   ├── race_replay.py         # Arcade F1RaceReplayWindow
-│   │   └── qualifying.py          # Qualifying arcade replay
-│   ├── lib/
-│   │   ├── season.py
-│   │   ├── settings.py
-│   │   ├── time.py
-│   │   └── tyres.py
-│   └── services/
-│       └── stream.py
-└── computed_data/                 # Auto-created pickle cache directory
-```
-
----
-
-## Screenshots
-
-_Screenshots coming soon._
-
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
 
 ## Demo
 
-![Demo](docs/images/demo.gif)
+> Screenshots coming soon.
 
-### Desktop View
+## Contributing
 
-![Desktop screenshot](docs/images/screenshot_desktop.png)
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Key Feature
+## License
 
-![Feature screenshot](docs/images/screenshot_feature.png)
+MIT
 
-### Mobile View
+## Author
 
-![Mobile screenshot](docs/images/screenshot_mobile.png)
+[isidhartha](https://github.com/isidhartha)
