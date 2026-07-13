@@ -1,5 +1,7 @@
 # F1 Telemetry Visualizer
 
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/f1-telemetry-visualizer)](https://github.com/isidhartha/f1-telemetry-visualizer/discussions)
+
 A desktop application that replays Formula 1 race and qualifying sessions as animated, real-time visualizations. Pick any race from 2018 onwards from the GUI session selector, load the telemetry via FastF1, and watch all 20 drivers move around the track simultaneously — with DRS zones highlighted, safety car periods animated, and pit stops flagged per driver on the leaderboard. A secondary insights panel gives you live telemetry streams, tyre strategy timelines, gap charts, and race control messages alongside the replay.
 
 The processing pipeline runs each driver's telemetry in parallel using `multiprocessing.Pool`, resamples everything onto a shared 25 FPS timeline, and caches the result as a pickle file. Subsequent loads of the same session skip the processing entirely. The replay engine itself uses the `arcade` library for the animated track map, with PySide6 windows for the GUI session selector and all the floating insight panels.
